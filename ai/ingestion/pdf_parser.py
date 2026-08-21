@@ -7,8 +7,8 @@ Install: pip install pdfplumber --break-system-packages
 """
 
 import pdfplumber
-from schemas import SourceChunk, SourceRef
-from source_quality import assess_pdf_quality
+from ai.ingestion.schemas import SourceChunk, SourceRef
+from ai.ingestion.source_quality import assess_pdf_quality
 
 
 def parse_pdf(pdf_path: str, doc_id: str) -> list[SourceChunk]:

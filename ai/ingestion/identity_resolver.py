@@ -6,7 +6,7 @@ produces a proposal that Person 3's UI shows the human for confirmation.
 
 import re
 from difflib import SequenceMatcher
-from schemas import IdentityMatchProposal
+from ai.ingestion.schemas import IdentityMatchProposal
 
 SIMILARITY_THRESHOLD = 0.85
 
