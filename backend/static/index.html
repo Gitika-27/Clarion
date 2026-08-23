@@ -1,0 +1,1579 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clarion | Industrial Product Truth Layer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #090d16;
+      --surface-1: #111827;
+      --surface-2: #1a233a;
+      --surface-3: #24304f;
+      --border: #2b395a;
+      --border-subtle: #1c2742;
+      --text: #f3f7fc;
+      --text-muted: #94a3b8;
+      --text-faint: #64748b;
+      --primary: #00d4aa;
+      --primary-glow: rgba(0, 212, 170, 0.25);
+      --primary-dark: #00a887;
+      --accent: #3b82f6;
+      --accent-glow: rgba(59, 130, 246, 0.25);
+      --warning: #f59e0b;
+      --warning-bg: rgba(245, 158, 11, 0.12);
+      --danger: #ef4444;
+      --danger-bg: rgba(239, 68, 68, 0.12);
+      --success: #10b981;
+      --success-bg: rgba(16, 185, 129, 0.12);
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --radius-lg: 16px;
+      --radius-xl: 22px;
+      --shadow: 0 12px 36px rgba(0, 0, 0, 0.45);
+      --font-mono: 'JetBrains Mono', monospace;
+      --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-sans);
+      min-height: 100vh;
+      line-height: 1.5;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Top Navbar */
+    header.navbar {
+      background: rgba(17, 24, 39, 0.92);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 0.85rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .brand-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .brand-logo {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      border-radius: var(--radius-md);
+      display: grid;
+      place-items: center;
+      font-weight: 800;
+      color: #090d16;
+      font-size: 1.3rem;
+      box-shadow: 0 0 20px var(--primary-glow);
+    }
+    .brand-title {
+      font-size: 1.35rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      background: linear-gradient(90deg, #ffffff, #93c5fd);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .brand-tagline {
+      font-size: 0.76rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    /* Quick Guide Banner */
+    .onboarding-banner {
+      background: linear-gradient(135deg, rgba(36, 48, 79, 0.7), rgba(17, 24, 39, 0.9));
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 0.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      position: relative;
+    }
+    .guide-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .guide-title {
+      font-size: 0.95rem;
+      font-weight: 800;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .guide-steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 12px;
+    }
+    .guide-step {
+      background: var(--surface-1);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 12px 14px;
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+    .step-badge {
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: var(--surface-3);
+      color: var(--primary);
+      font-weight: 800;
+      font-size: 0.8rem;
+      display: grid;
+      place-items: center;
+      flex-shrink: 0;
+    }
+    .step-text h4 {
+      font-size: 0.86rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 2px;
+    }
+    .step-text p {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      line-height: 1.35;
+    }
+
+    /* Main Container */
+    main.container {
+      max-width: 1400px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 1.5rem 2rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    /* KPI Metrics Banner */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 1rem;
+    }
+    .kpi-card {
+      background: var(--surface-1);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 1.25rem;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .kpi-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--primary);
+    }
+    .kpi-label {
+      font-size: 0.76rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .kpi-value {
+      font-size: 2rem;
+      font-weight: 800;
+      margin: 4px 0;
+      letter-spacing: -0.03em;
+    }
+    .kpi-sub {
+      font-size: 0.76rem;
+      color: var(--text-faint);
+    }
+
+    /* Nav Tabs */
+    .tab-bar {
+      display: flex;
+      gap: 8px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.5rem;
+      overflow-x: auto;
+    }
+    .tab-btn {
+      background: transparent;
+      border: 1px solid transparent;
+      color: var(--text-muted);
+      font-family: inherit;
+      font-size: 0.9rem;
+      font-weight: 700;
+      padding: 8px 16px;
+      border-radius: var(--radius-md);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .tab-btn:hover {
+      color: var(--text);
+      background: var(--surface-2);
+    }
+    .tab-btn.active {
+      background: var(--surface-2);
+      color: var(--primary);
+      border-color: var(--border);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+    .badge-count {
+      background: var(--surface-3);
+      color: var(--text);
+      font-size: 0.74rem;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-weight: 800;
+    }
+    .tab-btn.active .badge-count {
+      background: var(--primary);
+      color: #090d16;
+    }
+
+    /* Tab Panels */
+    .tab-panel {
+      display: none;
+      flex-direction: column;
+      gap: 1.5rem;
+      animation: fadeIn 0.25s ease-out;
+    }
+    .tab-panel.active {
+      display: flex;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Panel Cards */
+    .panel-card {
+      background: var(--surface-1);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-xl);
+      padding: 1.5rem;
+      box-shadow: var(--shadow);
+    }
+    .card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.25rem;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .card-title {
+      font-size: 1.2rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: #fff;
+    }
+    .card-desc {
+      font-size: 0.84rem;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-family: inherit;
+      font-size: 0.86rem;
+      font-weight: 700;
+      padding: 8px 16px;
+      border-radius: var(--radius-md);
+      border: 1px solid transparent;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .btn-primary {
+      background: var(--primary);
+      color: #090d16;
+      box-shadow: 0 0 16px var(--primary-glow);
+    }
+    .btn-primary:hover {
+      background: var(--primary-dark);
+      transform: translateY(-1px);
+    }
+    .btn-secondary {
+      background: var(--surface-2);
+      border-color: var(--border);
+      color: var(--text);
+    }
+    .btn-secondary:hover {
+      background: var(--surface-3);
+      border-color: var(--text-muted);
+    }
+    .btn-danger {
+      background: var(--danger-bg);
+      border-color: var(--danger);
+      color: #fca5a5;
+    }
+    .btn-danger:hover {
+      background: var(--danger);
+      color: #fff;
+    }
+    .btn-success {
+      background: var(--success-bg);
+      border-color: var(--success);
+      color: #6ee7b7;
+    }
+    .btn-success:hover {
+      background: var(--success);
+      color: #090d16;
+    }
+    .btn-sm {
+      padding: 5px 12px;
+      font-size: 0.78rem;
+    }
+
+    /* Pipeline Studio */
+    .pipeline-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+    @media (max-width: 960px) {
+      .pipeline-grid { grid-template-columns: 1fr; }
+    }
+
+    .dropzone {
+      border: 2px dashed var(--border);
+      border-radius: var(--radius-lg);
+      padding: 2.2rem 1.5rem;
+      text-align: center;
+      background: rgba(26, 35, 58, 0.4);
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    .dropzone:hover {
+      border-color: var(--primary);
+      background: rgba(0, 212, 170, 0.05);
+    }
+    .dropzone-icon {
+      font-size: 2.5rem;
+    }
+
+    .sample-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+    .sample-chip {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .sample-chip:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+      background: var(--surface-3);
+    }
+
+    /* Pipeline Steps Visualization */
+    .stages-flow {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .stage-card {
+      background: var(--surface-2);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 10px 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      transition: border-color 0.2s;
+    }
+    .stage-info {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .stage-num {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: var(--surface-3);
+      display: grid;
+      place-items: center;
+      font-size: 0.75rem;
+      font-weight: 800;
+      color: var(--primary);
+    }
+    .stage-name {
+      font-weight: 700;
+      font-size: 0.9rem;
+      color: #fff;
+    }
+    .stage-owner {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+    }
+    .stage-pill {
+      font-size: 0.72rem;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-weight: 700;
+      background: var(--success-bg);
+      color: var(--success);
+    }
+
+    /* Tables */
+    .table-container {
+      overflow-x: auto;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      background: var(--surface-1);
+    }
+    table.data-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.86rem;
+    }
+    table.data-table th {
+      background: var(--surface-2);
+      color: var(--text-muted);
+      font-weight: 700;
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--border);
+      text-transform: uppercase;
+      font-size: 0.72rem;
+      letter-spacing: 0.05em;
+    }
+    table.data-table td {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--border-subtle);
+      vertical-align: middle;
+    }
+    table.data-table tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    /* Spec Badges */
+    .spec-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 3px 8px;
+      background: var(--surface-2);
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border);
+      cursor: pointer;
+      color: #93c5fd;
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      transition: all 0.15s;
+    }
+    .spec-tag:hover {
+      border-color: var(--primary);
+      background: var(--surface-3);
+      color: #fff;
+      transform: scale(1.02);
+    }
+
+    .trust-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 3px 8px;
+      border-radius: 999px;
+      font-size: 0.74rem;
+      font-weight: 800;
+      font-family: var(--font-mono);
+    }
+    .trust-high {
+      background: var(--success-bg);
+      color: #34d399;
+      border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+    .trust-med {
+      background: var(--warning-bg);
+      color: #fbbf24;
+      border: 1px solid rgba(245, 158, 11, 0.3);
+    }
+    .trust-low {
+      background: var(--danger-bg);
+      color: #f87171;
+      border: 1px solid rgba(239, 68, 68, 0.3);
+    }
+
+    /* Review Cards */
+    .review-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+      gap: 1.25rem;
+    }
+    .review-card {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .review-card.has-conflict {
+      border-color: var(--danger);
+      background: rgba(239, 68, 68, 0.04);
+    }
+    .review-card.has-outlier {
+      border-color: var(--warning);
+      background: rgba(245, 158, 11, 0.04);
+    }
+    .compare-box {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin: 4px 0;
+    }
+    .compare-side {
+      background: var(--surface-1);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 8px 10px;
+      font-size: 0.82rem;
+    }
+    .compare-side .side-title {
+      font-size: 0.7rem;
+      font-weight: 800;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      margin-bottom: 2px;
+    }
+
+    /* Receipts Dialog */
+    dialog.receipt-dialog {
+      background: var(--surface-1);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-xl);
+      padding: 1.75rem;
+      max-width: 650px;
+      width: 92vw;
+      margin: auto;
+      box-shadow: 0 24px 64px rgba(0, 0, 0, 0.75);
+    }
+    dialog.receipt-dialog::backdrop {
+      background: rgba(5, 10, 20, 0.85);
+      backdrop-filter: blur(8px);
+    }
+
+    .meter-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 6px;
+      font-size: 0.82rem;
+    }
+    .meter-bar {
+      flex: 1;
+      height: 8px;
+      background: var(--surface-3);
+      border-radius: 999px;
+      overflow: hidden;
+    }
+    .meter-fill {
+      height: 100%;
+      background: var(--primary);
+      border-radius: 999px;
+      transition: width 0.3s ease;
+    }
+
+    .snippet-box {
+      background: #080c14;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 10px 12px;
+      font-family: var(--font-mono);
+      font-size: 0.82rem;
+      color: #e2e8f0;
+      max-height: 130px;
+      overflow-y: auto;
+      white-space: pre-wrap;
+      margin: 6px 0 12px;
+    }
+
+    /* Search & Inputs */
+    .filter-bar {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }
+    .input-field {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      color: var(--text);
+      font-family: inherit;
+      font-size: 0.86rem;
+      padding: 7px 12px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .input-field:focus {
+      border-color: var(--primary);
+    }
+
+    /* Sub-nav in review */
+    .subnav-bar {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid var(--border-subtle);
+      padding-bottom: 0.5rem;
+    }
+
+    /* Footer */
+    footer.app-footer {
+      border-top: 1px solid var(--border-subtle);
+      padding: 1.25rem 2rem;
+      text-align: center;
+      font-size: 0.78rem;
+      color: var(--text-faint);
+    }
+  </style>
+</head>
+<body>
+  <!-- Top Navigation -->
+  <header class="navbar">
+    <div class="brand-group">
+      <div class="brand-logo">C</div>
+      <div>
+        <h1 class="brand-title">CLARION</h1>
+        <p class="brand-tagline">Autonomous Industrial Product Truth Layer · Multi-Agent Intelligence</p>
+      </div>
+    </div>
+    <div class="nav-actions">
+      <button class="btn btn-secondary btn-sm" onclick="toggleGuide()">💡 <span id="guideToggleText">Hide Quick Guide</span></button>
+      <button class="btn btn-primary btn-sm" onclick="triggerSampleRun()">⚡ 1-Click Demo Setup</button>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="container">
+    <!-- Beginner-Friendly Quick Start Guide -->
+    <section class="onboarding-banner" id="onboardingBanner">
+      <div class="guide-header">
+        <div class="guide-title">
+          <span>🚀 New to Clarion? Follow this 30-Second Tour:</span>
+        </div>
+      </div>
+      <div class="guide-steps">
+        <div class="guide-step">
+          <div class="step-badge">1</div>
+          <div class="step-text">
+            <h4>Load Sample Data</h4>
+            <p>Click <strong>"⚡ 1-Click Demo Setup"</strong> in the top right to process sample PDFs (Test1 & Test4) + industrial CSV catalogs.</p>
+          </div>
+        </div>
+        <div class="guide-step">
+          <div class="step-badge">2</div>
+          <div class="step-text">
+            <h4>Click Any Specification</h4>
+            <p>Click blue specification tags (e.g. <code>Rated Voltage: 230V</code>) in the catalog to open the <strong>Receipts Inspector</strong> and see exact PDF citations.</p>
+          </div>
+        </div>
+        <div class="guide-step">
+          <div class="step-badge">3</div>
+          <div class="step-text">
+            <h4>Explore Human Review</h4>
+            <p>Visit the <strong>Human Review Hub</strong> to see how Clarion surfaces duplicate product proposals, cross-document conflicts, and statistical outliers.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Top KPI Metrics -->
+    <section class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-label">Extracted Records</div>
+        <div class="kpi-value" id="kpiRecords">0</div>
+        <div class="kpi-sub">Total products parsed from PDFs & CSVs</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Auto-Published</div>
+        <div class="kpi-value" style="color: var(--success);" id="kpiAutoPub">0</div>
+        <div class="kpi-sub">High trust (≥80%) + passed domain sanity</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Review Queue Items</div>
+        <div class="kpi-value" style="color: var(--warning);" id="kpiReview">0</div>
+        <div class="kpi-sub">Duplicates, conflicts & low confidence</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Catalog Outliers</div>
+        <div class="kpi-value" style="color: #f87171;" id="kpiOutliers">0</div>
+        <div class="kpi-sub">Statistical anomalies (IQR & Z-score)</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Catalog Trust Score</div>
+        <div class="kpi-value" style="color: var(--primary);" id="kpiTrust">100%</div>
+        <div class="kpi-sub">Weighted verified & cited fields rollup</div>
+      </div>
+    </section>
+
+    <!-- Main Tab Navigation -->
+    <nav class="tab-bar">
+      <button class="tab-btn active" id="nav-catalog" onclick="switchTab('catalog')">
+        📦 Structured Catalog <span class="badge-count" id="badgeCatalog">0</span>
+      </button>
+      <button class="tab-btn" id="nav-pipeline" onclick="switchTab('pipeline')">
+        ⚡ Pipeline Studio & Upload
+      </button>
+      <button class="tab-btn" id="nav-review" onclick="switchTab('review')">
+        👥 Human Review Hub <span class="badge-count" id="badgeReview">0</span>
+      </button>
+      <button class="tab-btn" id="nav-outliers" onclick="switchTab('outliers')">
+        📊 Outlier Inspector <span class="badge-count" id="badgeOutliers">0</span>
+      </button>
+      <button class="tab-btn" id="nav-export" onclick="switchTab('export')">
+        💾 Structured Export (252-Col)
+      </button>
+    </nav>
+
+    <!-- TAB 1: Structured Product Catalog -->
+    <section class="tab-panel active" id="tab-catalog">
+      <div class="panel-card">
+        <div class="card-header">
+          <div>
+            <h2 class="card-title">Structured Industrial Product Catalog</h2>
+            <p class="card-desc">Every field is extractive-only. Click any blue specification pill to inspect its exact source citation and 4-factor confidence math.</p>
+          </div>
+          <div style="display: flex; gap: 8px;">
+            <button class="btn btn-secondary btn-sm" onclick="refreshAll()">🔄 Refresh Data</button>
+            <button class="btn btn-primary btn-sm" onclick="downloadCsv()">📥 Export UniHack CSV</button>
+          </div>
+        </div>
+
+        <div class="filter-bar">
+          <input type="text" id="searchInput" class="input-field" placeholder="Search by part number, name, brand, spec..." style="flex: 1; min-width: 250px;" oninput="applyFilters()" />
+          <select id="statusFilter" class="input-field" onchange="applyFilters()">
+            <option value="">All Publication Statuses</option>
+            <option value="auto_published">Auto-Published (Verified)</option>
+            <option value="needs_review">Needs Review</option>
+            <option value="human_confirmed">Human Confirmed</option>
+          </select>
+        </div>
+
+        <div class="table-container">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Part Number</th>
+                <th>Product Description</th>
+                <th>Manufacturer / Brand</th>
+                <th>Extracted Specifications (Click for Receipts)</th>
+                <th>Trust Score</th>
+                <th>Status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="catalogTableBody">
+              <tr>
+                <td colspan="7" style="text-align: center; color: var(--text-muted); padding: 3rem;">
+                  No products loaded yet. Click <strong>"⚡ 1-Click Demo Setup"</strong> in the top right to start exploring!
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 2: Pipeline Studio & Ingestion -->
+    <section class="tab-panel" id="tab-pipeline">
+      <div class="pipeline-grid">
+        <!-- Ingestion & Upload Card -->
+        <div class="panel-card">
+          <div class="card-header">
+            <div>
+              <h2 class="card-title">Document & Dataset Ingestion</h2>
+              <p class="card-desc">Upload industrial PDF datasheets, nameplate photos, or CSV parts catalogs.</p>
+            </div>
+          </div>
+
+          <div class="dropzone" onclick="document.getElementById('fileInput').click()">
+            <div class="dropzone-icon">📄</div>
+            <strong style="font-size: 1rem; color: #fff;">Click or Drag & Drop Documents</strong>
+            <p style="font-size: 0.8rem; color: var(--text-muted);">Accepts PDF datasheets, CSV catalogs, and JPG/PNG images</p>
+            <input type="file" id="fileInput" style="display: none;" accept=".pdf,.csv,.jpg,.jpeg,.png" onchange="handleFileUpload(this.files[0])" />
+          </div>
+
+          <div style="margin-top: 1.25rem;">
+            <div class="kpi-label" style="margin-bottom: 6px;">⚡ Quick-Load Built-in Benchmark Datasets</div>
+            <div class="sample-chips">
+              <span class="sample-chip" onclick="triggerSampleRun()">📄 Run Test1 & Test4 PDF + 1,000 Row CSV</span>
+            </div>
+          </div>
+
+          <div id="uploadStatusBox" style="margin-top: 1rem; display: none;" class="stat-pill"></div>
+        </div>
+
+        <!-- Live Multi-Agent Pipeline Visualization -->
+        <div class="panel-card">
+          <div class="card-header">
+            <div>
+              <h2 class="card-title">Multi-Agent Truth Layer Flow</h2>
+              <p class="card-desc">Live agent execution and telemetry pipeline.</p>
+            </div>
+          </div>
+
+          <div class="stages-flow">
+            <div class="stage-card">
+              <div class="stage-info">
+                <div class="stage-num">1</div>
+                <div>
+                  <div class="stage-name">Ingestion Agent</div>
+                  <div class="stage-owner">Member 1 (Gitika) · PDF/Image Parsing, Page & Chunk Indexing</div>
+                </div>
+              </div>
+              <span class="stage-pill">Active</span>
+            </div>
+
+            <div class="stage-card">
+              <div class="stage-info">
+                <div class="stage-num">2</div>
+                <div>
+                  <div class="stage-name">Product Identity Resolver</div>
+                  <div class="stage-owner">Member 1 · String Normalization & Duplicate Match Proposals</div>
+                </div>
+              </div>
+              <span class="stage-pill">Active</span>
+            </div>
+
+            <div class="stage-card">
+              <div class="stage-info">
+                <div class="stage-num">3</div>
+                <div>
+                  <div class="stage-name">Extraction Agent</div>
+                  <div class="stage-owner">Member 2 · Extractive-Only Specs with Source Pointers</div>
+                </div>
+              </div>
+              <span class="stage-pill">Active</span>
+            </div>
+
+            <div class="stage-card">
+              <div class="stage-info">
+                <div class="stage-num">4</div>
+                <div>
+                  <div class="stage-name">Normalization & Domain Sanity</div>
+                  <div class="stage-owner">Member 2 / 3 · Deterministic Unit Conversion & Sanity Rules</div>
+                </div>
+              </div>
+              <span class="stage-pill">Active</span>
+            </div>
+
+            <div class="stage-card">
+              <div class="stage-info">
+                <div class="stage-num">5</div>
+                <div>
+                  <div class="stage-name">Conflict Detector</div>
+                  <div class="stage-owner">Member 2 / 3 · Cross-Document Disagreement Surfacing</div>
+                </div>
+              </div>
+              <span class="stage-pill">Active</span>
+            </div>
+
+            <div class="stage-card">
+              <div class="stage-info">
+                <div class="stage-num">6</div>
+                <div>
+                  <div class="stage-name">4-Factor Confidence & Trust Scoring</div>
+                  <div class="stage-owner">Member 2 / 3 · Explainable Math & Auto-Publish Routing</div>
+                </div>
+              </div>
+              <span class="stage-pill">Active</span>
+            </div>
+
+            <div class="stage-card">
+              <div class="stage-info">
+                <div class="stage-num">7</div>
+                <div>
+                  <div class="stage-name">Catalog Consistency (Outlier Detection)</div>
+                  <div class="stage-owner">Member 3 · Statistical Outlier Detection (IQR / Z-Score)</div>
+                </div>
+              </div>
+              <span class="stage-pill">Active</span>
+            </div>
+
+            <div class="stage-card">
+              <div class="stage-info">
+                <div class="stage-num">8</div>
+                <div>
+                  <div class="stage-name">Structured Export (252-Column Delivery)</div>
+                  <div class="stage-owner">Member 3 · Downstream Commerce & PIM Ready Format</div>
+                </div>
+              </div>
+              <span class="stage-pill">Active</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 3: Unified Human Review Hub -->
+    <section class="tab-panel" id="tab-review">
+      <div class="panel-card">
+        <div class="card-header">
+          <div>
+            <h2 class="card-title">Human-in-the-Loop Review Hub</h2>
+            <p class="card-desc">Clarion enforces human confirmation whenever identity matches are uncertain, sources disagree, or confidence drops below 80%.</p>
+          </div>
+        </div>
+
+        <nav class="subnav-bar">
+          <button class="btn btn-secondary btn-sm active" id="subnav-id" onclick="switchSubReview('id')">👥 Duplicate Identity Proposals (<span id="countSubId">0</span>)</button>
+          <button class="btn btn-secondary btn-sm" id="subnav-conflicts" onclick="switchSubReview('conflicts')">⚔️ Cross-Source Conflicts (<span id="countSubConf">0</span>)</button>
+          <button class="btn btn-secondary btn-sm" id="subnav-fields" onclick="switchSubReview('fields')">⚠️ Low Confidence Fields (<span id="countSubFields">0</span>)</button>
+        </nav>
+
+        <!-- Sub-panel 1: Identity Proposals -->
+        <div id="subpanel-id">
+          <div style="font-size: 0.84rem; color: var(--text-muted); margin-bottom: 12px;">
+            The Identity Resolver proposes likely duplicates across documents. Review and choose whether to merge or keep them separate.
+          </div>
+          <div class="review-grid" id="identityProposalList">
+            <div style="color: var(--text-muted); padding: 1.5rem;">No pending identity proposals.</div>
+          </div>
+        </div>
+
+        <!-- Sub-panel 2: Cross-Source Conflicts -->
+        <div id="subpanel-conflicts" style="display: none;">
+          <div style="font-size: 0.84rem; color: var(--text-muted); margin-bottom: 12px;">
+            When two source documents provide differing values for the same specification, Clarion presents both side-by-side for human review.
+          </div>
+          <div class="review-grid" id="conflictList">
+            <div style="color: var(--text-muted); padding: 1.5rem;">No cross-source conflicts detected.</div>
+          </div>
+        </div>
+
+        <!-- Sub-panel 3: Low Confidence Fields -->
+        <div id="subpanel-fields" style="display: none;">
+          <div style="font-size: 0.84rem; color: var(--text-muted); margin-bottom: 12px;">
+            Fields flagged with lower confidence or safety-critical warnings.
+          </div>
+          <div class="review-grid" id="lowConfidenceFieldList">
+            <div style="color: var(--text-muted); padding: 1.5rem;">All fields meet high-confidence thresholds.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 4: Outlier Inspector -->
+    <section class="tab-panel" id="tab-outliers">
+      <div class="panel-card">
+        <div class="card-header">
+          <div>
+            <h2 class="card-title">Catalog Consistency & Statistical Outlier Inspector</h2>
+            <p class="card-desc">Clarion checks extracted numerical values (voltage, size, sound level) against catalog statistical distributions to catch typos (e.g. 2300V instead of 230V).</p>
+          </div>
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <label style="font-size: 0.78rem; color: var(--text-muted);">Sensitivity (Z-Threshold):</label>
+            <select id="zThresholdSelect" class="input-field" onchange="loadOutliers()">
+              <option value="2.0">High Sensitivity (2.0 σ)</option>
+              <option value="2.5" selected>Standard (2.5 σ)</option>
+              <option value="3.5">Strict Outliers (3.5 σ)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="review-grid" id="outlierList">
+          <div style="color: var(--text-muted); padding: 1.5rem;">Scanning catalog for statistical anomalies...</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 5: Structured Export -->
+    <section class="tab-panel" id="tab-export">
+      <div class="panel-card">
+        <div class="card-header">
+          <div>
+            <h2 class="card-title">Structured Commerce Export Hub</h2>
+            <p class="card-desc">Export verified, cited product records ready for downstream commerce, ERP, or UniHack 252-Column delivery formats.</p>
+          </div>
+        </div>
+
+        <div style="display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 1.5rem;">
+          <button class="btn btn-primary" onclick="downloadCsv('unihack')">📥 Download UniHack 252-Column CSV</button>
+          <button class="btn btn-secondary" onclick="downloadCsv('standard')">📥 Download Standard CSV</button>
+          <button class="btn btn-secondary" onclick="downloadJson()">📥 Download Verified JSON</button>
+        </div>
+
+        <div class="card-header">
+          <h3 style="font-size: 0.95rem; color: #fff;">Export Preview (First 5 Records)</h3>
+        </div>
+        <div class="table-container" style="max-height: 380px;">
+          <table class="data-table" id="exportPreviewTable">
+            <thead>
+              <tr>
+                <th>PART_NUMBER</th>
+                <th>Mfg_Part_Num</th>
+                <th>Part_Desc</th>
+                <th>MANUFACTURER_NAME</th>
+                <th>BRAND_NAME</th>
+                <th>ATTRIBUTES (1..50)</th>
+              </tr>
+            </thead>
+            <tbody id="exportPreviewBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Receipts Traceability Modal / Drawer -->
+  <dialog class="receipt-dialog" id="receiptDialog">
+    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">
+      <div>
+        <div class="kpi-label" style="color: var(--primary);">FIELD PROVENANCE & TRACEABILITY RECEIPT</div>
+        <h2 style="font-size: 1.3rem; font-weight: 800; color: #fff;" id="receiptFieldName">Field Name</h2>
+      </div>
+      <button class="btn btn-secondary btn-sm" onclick="document.getElementById('receiptDialog').close()">✕ Close</button>
+    </div>
+
+    <div style="background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 12px 14px; margin-bottom: 1rem;">
+      <div style="font-size: 0.76rem; color: var(--text-muted); text-transform: uppercase; font-weight: 700;">Extracted Value</div>
+      <div style="font-size: 1.25rem; font-weight: 800; font-family: var(--font-mono); color: var(--primary);" id="receiptValue">Value</div>
+    </div>
+
+    <div class="kpi-label">Exact Source Citation</div>
+    <div id="receiptSourceRef" style="font-size: 0.82rem; color: var(--text); margin-bottom: 6px; background: var(--surface-3); padding: 6px 10px; border-radius: var(--radius-sm);"></div>
+
+    <div class="kpi-label">Raw Text Chunk Snippet</div>
+    <div class="snippet-box" id="receiptSnippet"></div>
+
+    <div class="kpi-label" style="margin-top: 0.75rem;">4-Factor Confidence Score Breakdown</div>
+    <div style="background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 12px 14px; margin-top: 6px;">
+      <div class="meter-row">
+        <span>1. Self-Consistency Factor:</span>
+        <div class="meter-bar"><div class="meter-fill" id="mfSelf" style="width: 100%;"></div></div>
+        <strong id="rcSelf" style="font-family: var(--font-mono); color: #fff;">1.00</strong>
+      </div>
+      <div class="meter-row">
+        <span>2. Verification Agreement:</span>
+        <div class="meter-bar"><div class="meter-fill" id="mfVerif" style="width: 100%;"></div></div>
+        <strong id="rcVerif" style="font-family: var(--font-mono); color: #fff;">1.00</strong>
+      </div>
+      <div class="meter-row">
+        <span>3. Domain Sanity Rule:</span>
+        <div class="meter-bar"><div class="meter-fill" id="mfSanity" style="width: 100%;"></div></div>
+        <strong id="rcSanity" style="font-family: var(--font-mono); color: #fff;">1.00</strong>
+      </div>
+      <div class="meter-row">
+        <span>4. Source Legibility Multiplier:</span>
+        <div class="meter-bar"><div class="meter-fill" id="mfQuality" style="width: 100%;"></div></div>
+        <strong id="rcQuality" style="font-family: var(--font-mono); color: #fff;">1.00</strong>
+      </div>
+    </div>
+
+    <div class="kpi-label" style="margin-top: 1rem;">Explainability Rationale</div>
+    <p style="font-size: 0.82rem; color: var(--text-muted); margin-top: 4px; line-height: 1.4;" id="receiptExplain"></p>
+
+    <div style="margin-top: 1.25rem; display: flex; gap: 10px; justify-content: flex-end;">
+      <button class="btn btn-success btn-sm" id="receiptApproveBtn">✓ Confirm Field as Valid</button>
+    </div>
+  </dialog>
+
+  <footer class="app-footer">
+    Clarion Truth Layer · Multi-Agent Industrial Product Intelligence Platform · Team SynapseSquad
+  </footer>
+
+  <script>
+    let globalRecords = [];
+    let currentReceiptRecord = null;
+    let currentReceiptField = null;
+
+    function toggleGuide() {
+      const banner = document.getElementById('onboardingBanner');
+      const text = document.getElementById('guideToggleText');
+      if (banner.style.display === 'none') {
+        banner.style.display = 'flex';
+        text.textContent = 'Hide Quick Guide';
+      } else {
+        banner.style.display = 'none';
+        text.textContent = 'Show Quick Guide';
+      }
+    }
+
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.tab-panel').forEach(panel => panel.classList.remove('active'));
+
+      const activeBtn = document.getElementById(`nav-${tabId}`);
+      if (activeBtn) activeBtn.classList.add('active');
+
+      const activePanel = document.getElementById(`tab-${tabId}`);
+      if (activePanel) activePanel.classList.add('active');
+
+      if (tabId === 'review') loadReviewHub();
+      if (tabId === 'outliers') loadOutliers();
+      if (tabId === 'export') renderExportPreview();
+    }
+
+    function switchSubReview(subId) {
+      document.getElementById('subpanel-id').style.display = subId === 'id' ? 'block' : 'none';
+      document.getElementById('subpanel-conflicts').style.display = subId === 'conflicts' ? 'block' : 'none';
+      document.getElementById('subpanel-fields').style.display = subId === 'fields' ? 'block' : 'none';
+
+      document.getElementById('subnav-id').classList.toggle('active', subId === 'id');
+      document.getElementById('subnav-conflicts').classList.toggle('active', subId === 'conflicts');
+      document.getElementById('subnav-fields').classList.toggle('active', subId === 'fields');
+    }
+
+    async function refreshAll() {
+      await loadPipelineStatus();
+      await loadCatalog();
+      await loadReviewHub();
+      await loadOutliers();
+    }
+
+    async function loadPipelineStatus() {
+      try {
+        const res = await fetch('/api/pipeline/status');
+        const data = await res.json();
+        if (data.ok) {
+          document.getElementById('kpiRecords').textContent = data.metrics.total_records;
+          document.getElementById('kpiAutoPub').textContent = data.metrics.auto_published;
+          document.getElementById('kpiReview').textContent = data.metrics.pending_conflicts + data.metrics.pending_fields;
+          document.getElementById('kpiOutliers').textContent = data.metrics.outlier_count;
+          document.getElementById('kpiTrust').textContent = `${Math.round(data.metrics.avg_trust_score * 100)}%`;
+
+          document.getElementById('badgeCatalog').textContent = data.metrics.total_records;
+          document.getElementById('badgeReview').textContent = data.metrics.pending_conflicts + data.metrics.pending_fields;
+          document.getElementById('badgeOutliers').textContent = data.metrics.outlier_count;
+        }
+      } catch (err) {
+        console.error("Status fetch error", err);
+      }
+    }
+
+    async function loadCatalog() {
+      try {
+        const res = await fetch('/api/records');
+        const data = await res.json();
+        if (data.ok) {
+          globalRecords = data.records;
+          renderCatalog(globalRecords);
+        }
+      } catch (err) {
+        console.error("Catalog fetch error", err);
+      }
+    }
+
+    function renderCatalog(records) {
+      const tbody = document.getElementById('catalogTableBody');
+      if (!records.length) {
+        tbody.innerHTML = `<tr><td colspan="7" style="text-align: center; color: var(--text-muted); padding: 3rem;">No products loaded yet. Click <strong>"⚡ 1-Click Demo Setup"</strong> in the top right to start exploring!</td></tr>`;
+        return;
+      }
+
+      tbody.innerHTML = records.map(r => {
+        const trustPct = Math.round(r.trust_score * 100);
+        const trustClass = trustPct >= 80 ? 'trust-high' : (trustPct >= 60 ? 'trust-med' : 'trust-low');
+        const statusPill = r.publication_status === 'auto_published'
+          ? `<span class="trust-badge trust-high">✓ Auto-Published</span>`
+          : (r.publication_status === 'human_confirmed' ? `<span class="trust-badge trust-high">✓ Confirmed</span>` : `<span class="trust-badge trust-med">⚠️ Needs Review</span>`);
+
+        const specBadges = Object.entries(r.fields).map(([fname, fv]) => {
+          return `<span class="spec-tag" onclick="openReceipt('${r.record_id}', '${fname}')" title="Click to view complete citation receipt">🔍 ${fname.replace('_', ' ')}: ${fv.normalized_value}</span>`;
+        }).join(' ');
+
+        return `
+          <tr>
+            <td><strong style="color: #fff; font-family: var(--font-mono);">${r.mfg_part_num}</strong></td>
+            <td>
+              <div style="font-weight: 700; color: #fff;">${r.product_name}</div>
+              <div style="font-size: 0.76rem; color: var(--text-muted); margin-top: 2px;">${r.grounded_description}</div>
+            </td>
+            <td>${r.manufacturer} <br/><span style="font-size: 0.74rem; color: var(--text-faint);">${r.brand}</span></td>
+            <td><div style="display: flex; flex-wrap: wrap; gap: 4px;">${specBadges || '<span style="color: var(--text-faint);">None extracted</span>'}</div></td>
+            <td><span class="trust-badge ${trustClass}">${trustPct}%</span></td>
+            <td>${statusPill}</td>
+            <td>
+              <button class="btn btn-secondary btn-sm" onclick="openFirstReceipt('${r.record_id}')">🔍 View Receipts</button>
+            </td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    function applyFilters() {
+      const q = document.getElementById('searchInput').value.toLowerCase();
+      const status = document.getElementById('statusFilter').value;
+
+      const filtered = globalRecords.filter(r => {
+        const matchesQuery = !q || r.product_name.toLowerCase().includes(q) || r.mfg_part_num.toLowerCase().includes(q) || r.manufacturer.toLowerCase().includes(q);
+        const matchesStatus = !status || r.publication_status === status;
+        return matchesQuery && matchesStatus;
+      });
+      renderCatalog(filtered);
+    }
+
+    async function openReceipt(recordId, fieldName) {
+      currentReceiptRecord = recordId;
+      currentReceiptField = fieldName;
+      try {
+        const res = await fetch(`/api/receipts/${recordId}/${fieldName}`);
+        const data = await res.json();
+        if (data.ok) {
+          const r = data.receipt;
+          document.getElementById('receiptFieldName').textContent = `${r.field_name.replace('_', ' ').toUpperCase()} CITATION`;
+          document.getElementById('receiptValue').textContent = r.normalized_value;
+          document.getElementById('receiptSnippet').textContent = r.source_snippet || "No textual context available";
+
+          const sref = r.source_ref;
+          document.getElementById('receiptSourceRef').textContent = `📄 Document: ${sref.doc_id || recordId} · Source Type: ${sref.source_type || 'pdf'} · Page: ${sref.page || '1'} · Paragraph: ${sref.paragraph || '1'}`;
+
+          const conf = r.confidence_breakdown;
+          document.getElementById('rcSelf').textContent = conf.self_consistency.toFixed(2);
+          document.getElementById('rcVerif').textContent = conf.verification_agreement.toFixed(2);
+          document.getElementById('rcSanity').textContent = conf.sanity_compliance.toFixed(2);
+          document.getElementById('rcQuality').textContent = conf.source_quality.toFixed(2);
+
+          document.getElementById('mfSelf').style.width = `${conf.self_consistency * 100}%`;
+          document.getElementById('mfVerif').style.width = `${conf.verification_agreement * 100}%`;
+          document.getElementById('mfSanity').style.width = `${conf.sanity_compliance * 100}%`;
+          document.getElementById('mfQuality').style.width = `${conf.source_quality * 100}%`;
+
+          document.getElementById('receiptExplain').textContent = r.explainability;
+
+          document.getElementById('receiptApproveBtn').onclick = () => approveField(recordId, fieldName);
+          document.getElementById('receiptDialog').showModal();
+        }
+      } catch (err) {
+        console.error("Receipt load error", err);
+      }
+    }
+
+    function openFirstReceipt(recordId) {
+      const rec = globalRecords.find(r => r.record_id === recordId);
+      if (rec && Object.keys(rec.fields).length > 0) {
+        openReceipt(recordId, Object.keys(rec.fields)[0]);
+      } else {
+        alert("No extracted field receipts available for this record.");
+      }
+    }
+
+    async function approveField(recordId, fieldName) {
+      try {
+        const res = await fetch('/api/review/fields/decide', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ record_id: recordId, field_name: fieldName, action: 'approve' })
+        });
+        if (res.ok) {
+          document.getElementById('receiptDialog').close();
+          await refreshAll();
+        }
+      } catch (err) {
+        console.error("Field approve error", err);
+      }
+    }
+
+    async function triggerSampleRun() {
+      const statusBox = document.getElementById('uploadStatusBox');
+      statusBox.style.display = 'inline-flex';
+      statusBox.textContent = 'Running Clarion multi-agent truth layer on sample assets...';
+      try {
+        const res = await fetch('/api/pipeline/run-sample', { method: 'POST' });
+        const data = await res.json();
+        if (data.ok) {
+          statusBox.textContent = `✓ Ingestion & extraction complete: ${data.record_count} verified product records loaded.`;
+          await refreshAll();
+          switchTab('catalog');
+        }
+      } catch (err) {
+        statusBox.textContent = `Error: ${err.message}`;
+      }
+    }
+
+    async function handleFileUpload(file) {
+      if (!file) return;
+      const statusBox = document.getElementById('uploadStatusBox');
+      statusBox.style.display = 'inline-flex';
+      statusBox.textContent = `Uploading and parsing ${file.name}...`;
+
+      const formData = new FormData();
+      formData.append('file', file);
+      try {
+        const res = await fetch('/api/upload', { method: 'POST', body: formData });
+        const data = await res.json();
+        if (data.ok) {
+          statusBox.textContent = `✓ Uploaded and parsed: ${file.name}`;
+          await refreshAll();
+          switchTab('catalog');
+        } else {
+          statusBox.textContent = `Error: ${data.detail || 'Upload failed'}`;
+        }
+      } catch (err) {
+        statusBox.textContent = `Upload error: ${err.message}`;
+      }
+    }
+
+    async function loadReviewHub() {
+      // 1. Identity Proposals
+      try {
+        const res = await fetch('/api/identity/proposals');
+        const proposals = await res.json();
+        document.getElementById('countSubId').textContent = proposals.length;
+        const idContainer = document.getElementById('identityProposalList');
+
+        if (!proposals.length) {
+          idContainer.innerHTML = `<div style="color: var(--text-muted); padding: 1.5rem;">✓ No pending identity duplicate proposals.</div>`;
+        } else {
+          idContainer.innerHTML = proposals.map(p => `
+            <div class="review-card">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <span class="trust-badge trust-high">${Math.round(p.similarity * 100)}% Similarity Match</span>
+                <span style="font-size: 0.72rem; color: var(--text-muted); font-family: var(--font-mono);">${p.proposal_id}</span>
+              </div>
+              <div class="compare-box">
+                <div class="compare-side">
+                  <div class="side-title">Product A · Doc ${p.doc_id_a}</div>
+                  <strong style="color: #fff;">${p.raw_name_a}</strong>
+                </div>
+                <div class="compare-side">
+                  <div class="side-title">Product B · Doc ${p.doc_id_b}</div>
+                  <strong style="color: #93c5fd;">${p.raw_name_b}</strong>
+                </div>
+              </div>
+              <div style="display: flex; gap: 8px; justify-content: flex-end;">
+                <button class="btn btn-success btn-sm" onclick="decideIdentity('${p.proposal_id}', 'merge')">✓ Merge (Same Product)</button>
+                <button class="btn btn-danger btn-sm" onclick="decideIdentity('${p.proposal_id}', 'keep-separate')">✕ Keep Separate</button>
+              </div>
+            </div>
+          `).join('');
+        }
+      } catch (err) {
+        console.error("Identity load error", err);
+      }
+
+      // 2. Conflicts & Low-Confidence Fields
+      try {
+        const confRes = await fetch('/api/review/conflicts');
+        const confData = await confRes.json();
+        const confContainer = document.getElementById('conflictList');
+        document.getElementById('countSubConf').textContent = confData.pending_conflicts?.length || 0;
+
+        if (confData.pending_conflicts?.length) {
+          confContainer.innerHTML = confData.pending_conflicts.map(c => `
+            <div class="review-card has-conflict">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <strong style="color: #fff;">${c.product_name}</strong>
+                <span class="trust-badge trust-low">Disagreement on ${c.field_name}</span>
+              </div>
+              <div class="compare-box">
+                <div class="compare-side">
+                  <div class="side-title">Document A Citation</div>
+                  <strong style="color: var(--primary); font-size: 1.05rem;">${c.value_a}</strong>
+                  <div style="font-size: 0.74rem; color: var(--text-muted); margin-top: 4px;">${c.snippet_a}</div>
+                </div>
+                <div class="compare-side">
+                  <div class="side-title">Document B Citation</div>
+                  <strong style="color: #93c5fd; font-size: 1.05rem;">${c.value_b}</strong>
+                  <div style="font-size: 0.74rem; color: var(--text-muted); margin-top: 4px;">${c.snippet_b}</div>
+                </div>
+              </div>
+              <div style="display: flex; gap: 8px; justify-content: flex-end;">
+                <button class="btn btn-secondary btn-sm" onclick="resolveConflict('${c.conflict_id}', 'choose_a')">Accept Value A (${c.value_a})</button>
+                <button class="btn btn-secondary btn-sm" onclick="resolveConflict('${c.conflict_id}', 'choose_b')">Accept Value B (${c.value_b})</button>
+              </div>
+            </div>
+          `).join('');
+        } else {
+          confContainer.innerHTML = `<div style="color: var(--text-muted); padding: 1.5rem;">✓ No cross-source conflicts detected.</div>`;
+        }
+
+        const fieldRes = await fetch('/api/review/fields');
+        const fieldData = await fieldRes.json();
+        const fieldContainer = document.getElementById('lowConfidenceFieldList');
+        document.getElementById('countSubFields').textContent = fieldData.fields?.length || 0;
+
+        if (fieldData.fields?.length) {
+          fieldContainer.innerHTML = fieldData.fields.map(f => `
+            <div class="review-card">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <strong style="color: #fff;">${f.product_name}</strong>
+                <span class="trust-badge trust-med">Score: ${Math.round(f.confidence.overall_score * 100)}%</span>
+              </div>
+              <div style="font-size: 0.85rem;">
+                Field: <strong style="color: #fff;">${f.field_name}</strong> · Value: <span style="font-family: var(--font-mono); color: var(--primary);">${f.normalized_value}</span>
+              </div>
+              <div style="font-size: 0.76rem; color: var(--text-muted);">${f.confidence.explainability}</div>
+              <div style="display: flex; gap: 8px; justify-content: flex-end; margin-top: 6px;">
+                <button class="btn btn-success btn-sm" onclick="approveField('${f.record_id}', '${f.field_name}')">✓ Confirm Value</button>
+              </div>
+            </div>
+          `).join('');
+        } else {
+          fieldContainer.innerHTML = `<div style="color: var(--text-muted); padding: 1.5rem;">✓ All fields meet high-confidence thresholds.</div>`;
+        }
+      } catch (err) {
+        console.error("Conflict fetch error", err);
+      }
+    }
+
+    async function decideIdentity(proposalId, action) {
+      try {
+        const res = await fetch(`/api/identity/proposals/${proposalId}/${action}`, { method: 'POST' });
+        if (res.ok) {
+          await loadReviewHub();
+          await refreshAll();
+        }
+      } catch (err) {
+        console.error("Identity decide error", err);
+      }
+    }
+
+    async function resolveConflict(conflictId, resolution) {
+      try {
+        const res = await fetch('/api/review/conflicts/resolve', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ conflict_id: conflictId, resolution })
+        });
+        if (res.ok) {
+          await loadReviewHub();
+          await refreshAll();
+        }
+      } catch (err) {
+        console.error("Resolve conflict error", err);
+      }
+    }
+
+    async function loadOutliers() {
+      const zThresh = document.getElementById('zThresholdSelect').value;
+      try {
+        const res = await fetch(`/api/catalog/outliers?z_threshold=${zThresh}`);
+        const data = await res.json();
+        const container = document.getElementById('outlierList');
+        document.getElementById('badgeOutliers').textContent = data.count;
+
+        if (!data.anomalies?.length) {
+          container.innerHTML = `<div style="color: var(--text-muted); padding: 1.5rem;">✓ No statistical outliers detected across the current catalog.</div>`;
+          return;
+        }
+
+        container.innerHTML = data.anomalies.map(a => `
+          <div class="review-card has-outlier">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <strong style="color: #fff;">${a.product_name}</strong>
+              <span class="trust-badge trust-low">${a.method} Anomaly</span>
+            </div>
+            <div style="font-size: 0.86rem;">
+              Attribute: <strong>${a.field_name}</strong> = <span style="color: #f87171; font-weight: 800; font-family: var(--font-mono);">${a.raw_value}</span>
+            </div>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">${a.explanation}</div>
+            ${a.suggested_fix ? `
+              <div style="background: var(--surface-1); padding: 8px 12px; border-radius: var(--radius-sm); border: 1px solid var(--border); font-size: 0.82rem; display: flex; align-items: center; justify-content: space-between;">
+                <div>💡 Suggested Fix: <strong style="color: var(--primary); font-family: var(--font-mono);">${a.suggested_fix}</strong></div>
+                <button class="btn btn-primary btn-sm" onclick="applyOutlierFix('${a.record_id}', '${a.field_name}', '${a.suggested_fix}')">Apply Fix</button>
+              </div>
+            ` : ''}
+          </div>
+        `).join('');
+      } catch (err) {
+        console.error("Outlier fetch error", err);
+      }
+    }
+
+    async function applyOutlierFix(recordId, fieldName, fixValue) {
+      try {
+        const res = await fetch('/api/review/fields/decide', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ record_id: recordId, field_name: fieldName, action: 'override', custom_value: fixValue })
+        });
+        if (res.ok) {
+          await loadOutliers();
+          await refreshAll();
+        }
+      } catch (err) {
+        console.error("Outlier fix error", err);
+      }
+    }
+
+    function renderExportPreview() {
+      const tbody = document.getElementById('exportPreviewBody');
+      const sample = globalRecords.slice(0, 5);
+      if (!sample.length) {
+        tbody.innerHTML = `<tr><td colspan="6" style="text-align: center; color: var(--text-muted); padding: 2rem;">No records to preview. Load data first.</td></tr>`;
+        return;
+      }
+      tbody.innerHTML = sample.map(r => `
+        <tr>
+          <td style="font-family: var(--font-mono); color: #fff;">${r.mfg_part_num}</td>
+          <td style="font-family: var(--font-mono);">${r.mfg_part_num}</td>
+          <td>${r.product_name}</td>
+          <td>${r.manufacturer}</td>
+          <td>${r.brand}</td>
+          <td>${Object.entries(r.fields).map(([k, v]) => `${k}:${v.normalized_value}`).join(' | ')}</td>
+        </tr>
+      `).join('');
+    }
+
+    function downloadCsv(fmt = 'unihack') {
+      window.location.href = `/api/export/csv?format=${fmt}`;
+    }
+
+    function downloadJson() {
+      window.location.href = `/api/export/json`;
+    }
+
+    // Initialize dashboard on load
+    refreshAll();
+  </script>
+</body>
+</html>
