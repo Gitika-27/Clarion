@@ -1,16 +1,7 @@
-"""
-Reads the real UniHack input CSV (Mfg_Part_Num, Part_Desc, E1_Brand,
-Unilog_Brand, DIB_Brand, Part_Manuf) and produces cleaned, structured
-records ready for the classification/attribute-extraction stage (Person 2)
-and eventual mapping into the 252-column Delivery Format (Person 3 / final
-export).
-
-This replaces the PDF/image path as the PRIMARY ingestion path for the
-actual graded task -- the real dataset has no PDFs or images in it.
-"""
 
 import csv
 import json
+import os
 import re
 
 # These strings mean "this field is empty" -- not real brand data.
@@ -78,6 +69,7 @@ def ingest_csv(input_path: str, output_path: str) -> list[dict]:
             }
             records.append(record)
 
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, "w") as f:
         json.dump(records, f, indent=2)
 
