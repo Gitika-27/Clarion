@@ -1,0 +1,2250 @@
+[
+  {
+    "record_id": "Test1_Datasheet",
+    "product_name": "Model E2E\nE2E (Small Diameter) Model Number Legend\nNo. Classification Code Meaning\nS SUS, threaded\nHousing material and shape\nC SUS, cylindrical\n03 Outer diameter 3 mm\n04 Outer diameter 4 mm\nSize\n05 Outer diameter 5 mm\n06 Outer diameter 6.5 mm\nS Shielded Models\nShielding\nN Unshielded Models\nSensing distance Number R8: 0.8 mm, 12: 1.2 mm, 02: 2 mm, 03: 3 mm, 04: 4 mm\nWC PVC Pre-wired Model\nConnection method MC M8 Connector, 3-pin\nCJ M8 Pre-wired Connector, 3-pin\nB DC 3-wire PNP open-collector output\nOutput specifications\nC DC 3-wire NPN open-collector output\n1 Normally open (NO)\nOperation mode\n2 Normally closed (NC)\nBlank Connector Models\nCable length Cable length (Unit: m)\nNumber M\n(Applicable to Pre-wired Models 2M and Pre-wired Connector Models 0.3M)\nNote: The purpose of this model number legend is to provide an understanding of the model numbers and how they correlate to sensor specifications.\nModels are not available for all combinations of code numbers.\n2",
+    "mfg_part_num": "E2E\nE2E (Small Diameter) Model Number Legend\nNo. Classification Code Meaning\nS SUS, threaded\nHousing material and shape\nC SUS, cylindrical\n03 Outer diameter 3 mm\n04 Outer diameter 4 mm\nSize\n05 Outer diameter 5 mm\n06 Outer diameter 6.5 mm\nS Shielded Models\nShielding\nN Unshielded Models\nSensing distance Number R8: 0.8 mm, 12: 1.2 mm, 02: 2 mm, 03: 3 mm, 04: 4 mm\nWC PVC Pre-wired Model\nConnection method MC M8 Connector, 3-pin\nCJ M8 Pre-wired Connector, 3-pin\nB DC 3-wire PNP open-collector output\nOutput specifications\nC DC 3-wire NPN open-collector output\n1 Normally open (NO)\nOperation mode\n2 Normally closed (NC)\nBlank Connector Models\nCable length Cable length (Unit: m)\nNumber M\n(Applicable to Pre-wired Models 2M and Pre-wired Connector Models 0.3M)\nNote: The purpose of this model number legend is to provide an understanding of the model numbers and how they correlate to sensor specifications.\nModels are not available for all combinations of code numbers.\n2",
+    "manufacturer": "Industrial OEM",
+    "brand": "Clarion Verified",
+    "category": "Industrial Electromechanical",
+    "grounded_description": "Model E2E\nE2E (Small Diameter) Model Number Legend\nNo. Classification Code Meaning\nS SUS, threaded\nHousing material and shape\nC SUS, cylindrical\n03 Outer diameter 3 mm\n04 Outer diameter 4 mm\nSize\n05 Outer diameter 5 mm\n06 Outer diameter 6.5 mm\nS Shielded Models\nShielding\nN Unshielded Models\nSensing distance Number R8: 0.8 mm, 12: 1.2 mm, 02: 2 mm, 03: 3 mm, 04: 4 mm\nWC PVC Pre-wired Model\nConnection method MC M8 Connector, 3-pin\nCJ M8 Pre-wired Connector, 3-pin\nB DC 3-wire PNP open-collector output\nOutput specifications\nC DC 3-wire NPN open-collector output\n1 Normally open (NO)\nOperation mode\n2 Normally closed (NC)\nBlank Connector Models\nCable length Cable length (Unit: m)\nNumber M\n(Applicable to Pre-wired Models 2M and Pre-wired Connector Models 0.3M)\nNote: The purpose of this model number legend is to provide an understanding of the model numbers and how they correlate to sensor specifications.\nModels are not available for all combinations of code numbers.\n2. Certified industrial component engineered with verified attributes: Size: Size | 3 dia. |  | 4 dia. |  | 6.5 dia. |, Model Number: 0.8 mm, 12: 1.2 mm, 02: 2 mm, 03: 3 mm, 04: 4 mm\nWC PVC Pre-wired Model\nConnection method MC M8 Connector, 3-pin\nCJ M8 Pre-wired Connector, 3-pin\nB DC 3-wire PNP open-collector output\nOutput specifications\nC DC 3-wire NPN open-collector output\n1 Normally open (NO)\nOperation mode\n2 Normally closed (NC)\nBlank Connector Models\nCable length Cable length (Unit: m)\nNumber M\n(Applicable to Pre-wired Models 2M and Pre-wired Connector Models 0.3M)\nNote: The purpose of this model number legend is to provide an understanding of the model numbers and how they correlate to sensor specifications.\nModels are not available for all combinations of code numbers.\n2, Housing Material: 0.8 mm, 12: 1.2 mm, 02: 2 mm, 03: 3 mm, 04: 4 mm\nWC PVC Pre-wired Model\nConnection method MC M8 Connector, 3-pin\nCJ M8 Pre-wired Connector, 3-pin\nB DC 3-wire PNP open-collector output\nOutput specifications\nC DC 3-wire NPN open-collector output\n1 Normally open (NO)\nOperation mode\n2 Normally closed (NC)\nBlank Connector Models\nCable length Cable length (Unit: m)\nNumber M\n(Applicable to Pre-wired Models 2M and Pre-wired Connector Models 0.3M)\nNote: The purpose of this model number legend is to provide an understanding of the model numbers and how they correlate to sensor specifications.\nModels are not available for all combinations of code numbers.\n2, Classification Code: 0.8 mm, 12: 1.2 mm, 02: 2 mm, 03: 3 mm, 04: 4 mm\nWC PVC Pre-wired Model\nConnection method MC M8 Connector, 3-pin\nCJ M8 Pre-wired Connector, 3-pin\nB DC 3-wire PNP open-collector output\nOutput specifications\nC DC 3-wire NPN open-collector output\n1 Normally open (NO)\nOperation mode\n2 Normally closed (NC)\nBlank Connector Models\nCable length Cable length (Unit: m)\nNumber M\n(Applicable to Pre-wired Models 2M and Pre-wired Connector Models 0.3M)\nNote: The purpose of this model number legend is to provide an understanding of the model numbers and how they correlate to sensor specifications.\nModels are not available for all combinations of code numbers.\n2, Housing Material And Shape: S.",
+    "fields": {
+      "size": {
+        "field_name": "size",
+        "raw_value": "Size | 3 dia. |  | 4 dia. |  | 6.5 dia. |",
+        "normalized_value": "Size | 3 dia. |  | 4 dia. |  | 6.5 dia. |",
+        "confidence": {
+          "self_consistency": 0.98,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.98,
+          "explainability": "4-Factor Score (0.98) = Self-Consistency (0.98) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "Test1_Datasheet",
+          "source_type": "pdf",
+          "page": 11,
+          "paragraph": null,
+          "bbox": null
+        },
+        "source_snippet": "Size | 3 dia. |  | 4 dia. |  | 6.5 dia. | ",
+        "chunk_id": "Test1_Datasheet_c141",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "model_number": {
+        "field_name": "model_number",
+        "raw_value": "E2E\nE2E (Small Diameter) Model Number Legend\nNo. Classification Code Meaning\nS SUS, threaded\nHousing material and shape\nC SUS, cylindrical\n03 Outer diameter 3 mm\n04 Outer diameter 4 mm\nSize\n05 Outer diameter 5 mm\n06 Outer diameter 6.5 mm\nS Shielded Models\nShielding\nN Unshielded Models\nSensing distance Number R8: 0.8 mm, 12: 1.2 mm, 02: 2 mm, 03: 3 mm, 04: 4 mm\nWC PVC Pre-wired Model\nConnection method MC M8 Connector, 3-pin\nCJ M8 Pre-wired Connector, 3-pin\nB DC 3-wire PNP open-collector output\nOutput specifications\nC DC 3-wire NPN open-collector output\n1 Normally open (NO)\nOperation mode\n2 Normally closed (NC)\nBlank Connector Models\nCable length Cable length (Unit: m)\nNumber M\n(Applicable to Pre-wired Models 2M and Pre-wired Connector Models 0.3M)\nNote: The purpose of this model number legend is to provide an understanding of the model numbers and how they correlate to sensor specifications.\nModels are not available for all combinations of code numbers.\n2",
+        "normalized_value": "0.8 mm, 12: 1.2 mm, 02: 2 mm, 03: 3 mm, 04: 4 mm\nWC PVC Pre-wired Model\nConnection method MC M8 Connector, 3-pin\nCJ M8 Pre-wired Connector, 3-pin\nB DC 3-wire PNP open-collector output\nOutput specifications\nC DC 3-wire NPN open-collector output\n1 Normally open (NO)\nOperation mode\n2 Normally closed (NC)\nBlank Connector Models\nCable length Cable length (Unit: m)\nNumber M\n(Applicable to Pre-wired Models 2M and Pre-wired Connector Models 0.3M)\nNote: The purpose of this model number legend is to provide an understanding of the model numbers and how they correlate to sensor specifications.\nModels are not available for all combinations of code numbers.\n2",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "Test1_Datasheet",
+          "source_type": "pdf",
+          "page": 2,
+          "paragraph": 1,
+          "bbox": null
+        },
+        "source_snippet": "E2E\nE2E (Small Diameter) Model Number Legend\nNo. Classification Code Meaning\nS SUS, threaded\nHousing material and shape\nC SUS, cylindrical\n03 Outer diameter 3 mm\n04 Outer diameter 4 mm\nSize\n05 Outer diameter 5 mm\n06 Outer diameter 6.5 mm\nS Shielded Models\nShielding\nN Unshielded Models\nSensing distance Number R8: 0.8 mm, 12: 1.2 mm, 02: 2 mm, 03: 3 mm, 04: 4 mm\nWC PVC Pre-wired Model\nConnection method MC M8 Connector, 3-pin\nCJ M8 Pre-wired Connector, 3-pin\nB DC 3-wire PNP open-collector output\nOutput specifications\nC DC 3-wire NPN open-collector output\n1 Normally open (NO)\nOperation mode\n2 Normally closed (NC)\nBlank Connector Models\nCable length Cable length (Unit: m)\nNumber M\n(Applicable to Pre-wired Models 2M and Pre-wired Connector Models 0.3M)\nNote: The purpose of this model number legend is to provide an understanding of the model numbers and how they correlate to sensor specifications.\nModels are not available for all combinations of code numbers.\n2",
+        "chunk_id": "Test1_Datasheet_c2",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "housing_material": {
+        "field_name": "housing_material",
+        "raw_value": "E2E\nE2E (Small Diameter) Model Number Legend\nNo. Classification Code Meaning\nS SUS, threaded\nHousing material and shape\nC SUS, cylindrical\n03 Outer diameter 3 mm\n04 Outer diameter 4 mm\nSize\n05 Outer diameter 5 mm\n06 Outer diameter 6.5 mm\nS Shielded Models\nShielding\nN Unshielded Models\nSensing distance Number R8: 0.8 mm, 12: 1.2 mm, 02: 2 mm, 03: 3 mm, 04: 4 mm\nWC PVC Pre-wired Model\nConnection method MC M8 Connector, 3-pin\nCJ M8 Pre-wired Connector, 3-pin\nB DC 3-wire PNP open-collector output\nOutput specifications\nC DC 3-wire NPN open-collector output\n1 Normally open (NO)\nOperation mode\n2 Normally closed (NC)\nBlank Connector Models\nCable length Cable length (Unit: m)\nNumber M\n(Applicable to Pre-wired Models 2M and Pre-wired Connector Models 0.3M)\nNote: The purpose of this model number legend is to provide an understanding of the model numbers and how they correlate to sensor specifications.\nModels are not available for all combinations of code numbers.\n2",
+        "normalized_value": "0.8 mm, 12: 1.2 mm, 02: 2 mm, 03: 3 mm, 04: 4 mm\nWC PVC Pre-wired Model\nConnection method MC M8 Connector, 3-pin\nCJ M8 Pre-wired Connector, 3-pin\nB DC 3-wire PNP open-collector output\nOutput specifications\nC DC 3-wire NPN open-collector output\n1 Normally open (NO)\nOperation mode\n2 Normally closed (NC)\nBlank Connector Models\nCable length Cable length (Unit: m)\nNumber M\n(Applicable to Pre-wired Models 2M and Pre-wired Connector Models 0.3M)\nNote: The purpose of this model number legend is to provide an understanding of the model numbers and how they correlate to sensor specifications.\nModels are not available for all combinations of code numbers.\n2",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "Test1_Datasheet",
+          "source_type": "pdf",
+          "page": 2,
+          "paragraph": 1,
+          "bbox": null
+        },
+        "source_snippet": "E2E\nE2E (Small Diameter) Model Number Legend\nNo. Classification Code Meaning\nS SUS, threaded\nHousing material and shape\nC SUS, cylindrical\n03 Outer diameter 3 mm\n04 Outer diameter 4 mm\nSize\n05 Outer diameter 5 mm\n06 Outer diameter 6.5 mm\nS Shielded Models\nShielding\nN Unshielded Models\nSensing distance Number R8: 0.8 mm, 12: 1.2 mm, 02: 2 mm, 03: 3 mm, 04: 4 mm\nWC PVC Pre-wired Model\nConnection method MC M8 Connector, 3-pin\nCJ M8 Pre-wired Connector, 3-pin\nB DC 3-wire PNP open-collector output\nOutput specifications\nC DC 3-wire NPN open-collector output\n1 Normally open (NO)\nOperation mode\n2 Normally closed (NC)\nBlank Connector Models\nCable length Cable length (Unit: m)\nNumber M\n(Applicable to Pre-wired Models 2M and Pre-wired Connector Models 0.3M)\nNote: The purpose of this model number legend is to provide an understanding of the model numbers and how they correlate to sensor specifications.\nModels are not available for all combinations of code numbers.\n2",
+        "chunk_id": "Test1_Datasheet_c2",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "classification_code": {
+        "field_name": "classification_code",
+        "raw_value": "E2E\nE2E (Small Diameter) Model Number Legend\nNo. Classification Code Meaning\nS SUS, threaded\nHousing material and shape\nC SUS, cylindrical\n03 Outer diameter 3 mm\n04 Outer diameter 4 mm\nSize\n05 Outer diameter 5 mm\n06 Outer diameter 6.5 mm\nS Shielded Models\nShielding\nN Unshielded Models\nSensing distance Number R8: 0.8 mm, 12: 1.2 mm, 02: 2 mm, 03: 3 mm, 04: 4 mm\nWC PVC Pre-wired Model\nConnection method MC M8 Connector, 3-pin\nCJ M8 Pre-wired Connector, 3-pin\nB DC 3-wire PNP open-collector output\nOutput specifications\nC DC 3-wire NPN open-collector output\n1 Normally open (NO)\nOperation mode\n2 Normally closed (NC)\nBlank Connector Models\nCable length Cable length (Unit: m)\nNumber M\n(Applicable to Pre-wired Models 2M and Pre-wired Connector Models 0.3M)\nNote: The purpose of this model number legend is to provide an understanding of the model numbers and how they correlate to sensor specifications.\nModels are not available for all combinations of code numbers.\n2",
+        "normalized_value": "0.8 mm, 12: 1.2 mm, 02: 2 mm, 03: 3 mm, 04: 4 mm\nWC PVC Pre-wired Model\nConnection method MC M8 Connector, 3-pin\nCJ M8 Pre-wired Connector, 3-pin\nB DC 3-wire PNP open-collector output\nOutput specifications\nC DC 3-wire NPN open-collector output\n1 Normally open (NO)\nOperation mode\n2 Normally closed (NC)\nBlank Connector Models\nCable length Cable length (Unit: m)\nNumber M\n(Applicable to Pre-wired Models 2M and Pre-wired Connector Models 0.3M)\nNote: The purpose of this model number legend is to provide an understanding of the model numbers and how they correlate to sensor specifications.\nModels are not available for all combinations of code numbers.\n2",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "Test1_Datasheet",
+          "source_type": "pdf",
+          "page": 2,
+          "paragraph": 1,
+          "bbox": null
+        },
+        "source_snippet": "E2E\nE2E (Small Diameter) Model Number Legend\nNo. Classification Code Meaning\nS SUS, threaded\nHousing material and shape\nC SUS, cylindrical\n03 Outer diameter 3 mm\n04 Outer diameter 4 mm\nSize\n05 Outer diameter 5 mm\n06 Outer diameter 6.5 mm\nS Shielded Models\nShielding\nN Unshielded Models\nSensing distance Number R8: 0.8 mm, 12: 1.2 mm, 02: 2 mm, 03: 3 mm, 04: 4 mm\nWC PVC Pre-wired Model\nConnection method MC M8 Connector, 3-pin\nCJ M8 Pre-wired Connector, 3-pin\nB DC 3-wire PNP open-collector output\nOutput specifications\nC DC 3-wire NPN open-collector output\n1 Normally open (NO)\nOperation mode\n2 Normally closed (NC)\nBlank Connector Models\nCable length Cable length (Unit: m)\nNumber M\n(Applicable to Pre-wired Models 2M and Pre-wired Connector Models 0.3M)\nNote: The purpose of this model number legend is to provide an understanding of the model numbers and how they correlate to sensor specifications.\nModels are not available for all combinations of code numbers.\n2",
+        "chunk_id": "Test1_Datasheet_c2",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "housing_material_and_shape": {
+        "field_name": "housing_material_and_shape",
+        "raw_value": "S",
+        "normalized_value": "S",
+        "confidence": {
+          "self_consistency": 0.98,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.98,
+          "explainability": "4-Factor Score (0.98) = Self-Consistency (0.98) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "Test1_Datasheet",
+          "source_type": "pdf",
+          "page": 2,
+          "paragraph": null,
+          "bbox": null
+        },
+        "source_snippet": "Housing material and shape | S",
+        "chunk_id": "Test1_Datasheet_c4",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "connection_method": {
+        "field_name": "connection_method",
+        "raw_value": "WC",
+        "normalized_value": "WC",
+        "confidence": {
+          "self_consistency": 0.98,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.98,
+          "explainability": "4-Factor Score (0.98) = Self-Consistency (0.98) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "Test1_Datasheet",
+          "source_type": "pdf",
+          "page": 2,
+          "paragraph": null,
+          "bbox": null
+        },
+        "source_snippet": "Connection method | WC",
+        "chunk_id": "Test1_Datasheet_c8",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "operation_mode": {
+        "field_name": "operation_mode",
+        "raw_value": "1",
+        "normalized_value": "1",
+        "confidence": {
+          "self_consistency": 0.98,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.98,
+          "explainability": "4-Factor Score (0.98) = Self-Consistency (0.98) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "Test1_Datasheet",
+          "source_type": "pdf",
+          "page": 2,
+          "paragraph": null,
+          "bbox": null
+        },
+        "source_snippet": "Operation mode | 1",
+        "chunk_id": "Test1_Datasheet_c10",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "output_type_npn": {
+        "field_name": "output_type_npn",
+        "raw_value": "NPN output",
+        "normalized_value": "NPN output",
+        "confidence": {
+          "self_consistency": 0.98,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.98,
+          "explainability": "4-Factor Score (0.98) = Self-Consistency (0.98) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "Test1_Datasheet",
+          "source_type": "pdf",
+          "page": 3,
+          "paragraph": null,
+          "bbox": null
+        },
+        "source_snippet": " |  |  |  |  |  | NPN output | PNP output",
+        "chunk_id": "Test1_Datasheet_c15",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "output_type_pnp": {
+        "field_name": "output_type_pnp",
+        "raw_value": "PNP output",
+        "normalized_value": "PNP output",
+        "confidence": {
+          "self_consistency": 0.98,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.98,
+          "explainability": "4-Factor Score (0.98) = Self-Consistency (0.98) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "Test1_Datasheet",
+          "source_type": "pdf",
+          "page": 3,
+          "paragraph": null,
+          "bbox": null
+        },
+        "source_snippet": " |  |  |  |  |  | NPN output | PNP output",
+        "chunk_id": "Test1_Datasheet_c15",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "rated_voltage": {
+        "field_name": "rated_voltage",
+        "raw_value": "E2E\nRatings and Specifications\nSize 3 dia. 4 dia. 6.5 dia. M4 M5\nType Shielded Unshielded Shielded Unshielded Shielded Unshielded Shielded Unshielded Shielded Unshielded\nItem Model E2E-C03SR8 E2E-C03N02 E2E-C04S12 E2E-C04N03 E2E-C06S02 E2E-C06N04 E2E-S04SR8 E2E-S04N02 E2E-S05S12 E2E-S05N03\nSensing distance\n0.8 mm \u00b110% 2 mm \u00b110% 1.2 mm \u00b110% 3 mm \u00b110% 2 mm \u00b110% 4 mm \u00b110% 0.8 mm \u00b110% 2 mm \u00b110% 1.2 mm \u00b110% 3 mm \u00b110%\n(at 23\u00b0C)\nSetting distance *1\n0 to 0.56 mm 0 to 1.4 mm 0 to 0.84 mm 0 to 2.1 mm 0 to 1.4 mm 0 to 2.8 mm 0 to 0.56 mm 0 to 1.4 mm 0 to 0.84 mm 0 to 2.1 mm\n(Sensing distance \u00d7 0.7)\nDifferential travel 15% max. of sensing distance\nDetectable object Ferrous metal (The sensing distance decreases with non-ferrous metal. Refer to Engineering Data on page7.)\nStandard sensing Iron, Iron, Iron, Iron, Iron, Iron, Iron, Iron, Iron, Iron,\nobject 3 \u00d7 3 \u00d7 1mm 6 \u00d7 6 \u00d7 1 mm 4 \u00d7 4 \u00d7 1 mm 9 \u00d7 9 \u00d7 1 mm 6.5 \u00d7 6.5 \u00d7 1 mm 12 \u00d7 12 \u00d7 1mm 3 \u00d7 3 \u00d7 1 mm 6 \u00d7 6 \u00d7 1 mm 4 \u00d7 4 \u00d7 1 mm 9 \u00d7 9 \u00d7 1 mm\nResponse frequency 5 kHz 3.5 kHz 4 kHz 2 kHz 3 kHz 3 kHz 5 kHz 3.5 kHz 4 kHz 2 kHz\nPower supply voltage\n10 to 30 VDC (including 10% ripple (p-p))\n*2\nCurrent consumption 10 mA max.\n200 mA max.\nControl Load current 50 mA max. 100 mA max. (60 to 70\u00b0C: 100 mA) 50 mA max. 100 mA max.\noutput\n*3 Residual 2 V max. *5\nvoltage\nIndicators Operation indicator: Yellow (complies with European standard EN60947-5-2) Lights during output.\nOperation mode\nB1/B2: PNP open collector, C1/C2: NPN open collector\n(with sensing object\nB1/C1 models: NO, B2/C2 models: NC\napproaching)\nProtection circuits Output reverse polarity protection, Power source circuit reverse polarity protection, Surge suppressor, Load short-circit protection\nAmbient\nOperation and storage: \u221225 to 70\u00b0C (with no ice or condensation)\ntemperature range\nAmbient\nOperation and storage: 35% to 95% (with no condensation)\nhumidity range\nTemperature\n15% max. of sensing distance at 23\u00b0C within temperature range of \u221225 to 70\u00b0C\ninfluence\nVoltage influence 2.5% max. of sensing distance at rated voltage in the rated voltage 15% range\nInsulation resistance 50 M min. (at 500 VDC) between current-carrying parts and case\nDielectric strength 500 VAC, 50/60 Hz for 1 minute between current-carrying parts and case\nVibration resistance Destruction: 10 to 55 Hz, 1.5-mm double amplitude for 2 hours each in X, Y, and Z directions\nShock resistance Destruction: 500 m/s2 10 times each in X, Y, and Z directions\nDegree of protection IEC 60529 IP67, in-house standards: oil-resistant *6\nPre-wired\nYes Yes Yes Yes Yes\nModels\nM8 Pre-wired\nConnecting\nConnector Yes Yes Yes Yes Yes\nmethod\nModels\nM8 Connector\nNo Yes Yes No Yes\nModels\nPre-wired\nApprox. 25 g Approx. 30 g Approx. 35 g Approx. 35 g Approx. 55 g Approx. 55 g Approx. 30 g Approx. 30 g Approx. 35 g Approx. 40 g\nModels\nWeight M8 Pre-wired\n(packed Connector Approx. 20 g Approx. 20 g Approx. 15 g Approx. 20 g Approx. 20 g Approx. 25 g Approx. 20 g Approx. 20 g Approx. 20 g Approx. 20 g\nstate) Models\nM8 Connector\n--- --- Approx. 10 g Approx. 10 g Approx. 10 g Approx. 15 g --- --- Approx. 15 g Approx. 15 g\nModels\nCase SUS303 (EN1.4305 *7)\nSensing\nHeat-resistant ABS\nsurface\nClamping\nMaterials No SUS430 (EN1.4016 *7)\nnuts *4\nToothed\nNo SUS303 (EN1.4305 *7)\nwasher *4\nCable PVC\nInstruction\nYes\nmanual\nAccessories Model label Yes\nMounting\nSold separately\nbrackets\n*1.Operating within the set distance enables high-speed responsiveness and a more stable repeat accuracy.\n*2.When used with a 12 V power source, the Sensor is less susceptible to the effects of internal heat generation. Therefore a more stable repeat accuracy can\nbe obtained.\n*3.When the control output is 20 mA or less, the Sensor is less susceptible to the effects of internal heat generation. Therefore a more stable repeat accuracy can be\nobtained.\n*4.Nuts: 2 pieces, toothed washer: 1 piece\n*5.3 dia., M4: load current 50 mA, cable length 2 m Oil resistance test\n4 dia., M5: load current 100 mA, cable length 2 m After the test time elapses, the characteristics\n6.5 dia.: load current 200 mA, cord length 2 m below are checked for problems.\n*6.Oil resistance in-house standard: Performance with respect Test oil: Water insoluble oil\nto water insoluble oil. (1) Visual appearance (no damage that Velocite No. 3\n(Test at right) affects product characteristics) 50\u00b0C \u00d7 250 hours\n*7.Material name in EN standards. (2) Operation check (ON/OFF) Depth 10 cm\n(3) Insulation resistance (50 M min. at\n500 VDC)\n(4) Dielectric strength (500 VAC, 1 min.) Sensor\n(5) Water resistance (IP67)\n6",
+        "normalized_value": "100 mA) 50 mA max. 100 mA max.\noutput\n*3 Residual 2V max. *5\nvoltage\nIndicators Operation indicator: Yellow (complies with European standard EN60947-5-2) Lights during output.\nOperation mode\nB1/B2: PNP open collector, C1/C2: NPN open collector\n(with sensing object\nB1/C1 models: NO, B2/C2 models: NC\napproaching)\nProtection circuits Output reverse polarity protection, Power source circuit reverse polarity protection, Surge suppressor, Load short-circit protection\nAmbient\nOperation and storage: \u221225 to 70\u00b0C (with no ice or condensation)\ntemperature range\nAmbient\nOperation and storage: 35% to 95% (with no condensation)\nhumidity range\nTemperature\n15% max. of sensing distance at 23\u00b0C within temperature range of \u221225 to 70\u00b0C\ninfluence\nVoltage influence 2.5% max. of sensing distance at rated voltage in the rated voltage 15% range\nInsulation resistance 50 M min. (at 500V) between current-carrying parts and case\nDielectric strength 500V, 50/60 Hz for 1 minute between current-carrying parts and case\nVibration resistance Destruction: 10 to 55 Hz, 1.5-mm double amplitude for 2 hours each in X, Y, and Z directions\nShock resistance Destruction: 500 m/s2 10 times each in X, Y, and Z directions\nDegree of protection IEC 60529 IP67, in-house standards: oil-resistant *6\nPre-wired\nYes Yes Yes Yes Yes\nModels\nM8 Pre-wired\nConnecting\nConnector Yes Yes Yes Yes Yes\nmethod\nModels\nM8 Connector\nNo Yes Yes No Yes\nModels\nPre-wired\nApprox. 25 g Approx. 30 g Approx. 35 g Approx. 35 g Approx. 55 g Approx. 55 g Approx. 30 g Approx. 30 g Approx. 35 g Approx. 40 g\nModels\nWeight M8 Pre-wired\n(packed Connector Approx. 20 g Approx. 20 g Approx. 15 g Approx. 20 g Approx. 20 g Approx. 25 g Approx. 20 g Approx. 20 g Approx. 20 g Approx. 20 g\nstate) Models\nM8 Connector\n--- --- Approx. 10 g Approx. 10 g Approx. 10 g Approx. 15 g --- --- Approx. 15 g Approx. 15 g\nModels\nCase SUS303 (EN1.4305 *7)\nSensing\nHeat-resistant ABS\nsurface\nClamping\nMaterials No SUS430 (EN1.4016 *7)\nnuts *4\nToothed\nNo SUS303 (EN1.4305 *7)\nwasher *4\nCable PVC\nInstruction\nYes\nmanual\nAccessories Model label Yes\nMounting\nSold separately\nbrackets\n*1.Operating within the set distance enables high-speed responsiveness and a more stable repeat accuracy.\n*2.When used with a 12V power source, the Sensor is less susceptible to the effects of internal heat generation. Therefore a more stable repeat accuracy can\nbe obtained.\n*3.When the control output is 20 mA or less, the Sensor is less susceptible to the effects of internal heat generation. Therefore a more stable repeat accuracy can be\nobtained.\n*4.Nuts: 2 pieces, toothed washer: 1 piece\n*5.3 dia., M4: load current 50 mA, cable length 2 m Oil resistance test\n4 dia., M5: load current 100 mA, cable length 2 m After the test time elapses, the characteristics\n6.5 dia.: load current 200 mA, cord length 2 m below are checked for problems.\n*6.Oil resistance in-house standard: Performance with respect Test oil: Water insoluble oil\nto water insoluble oil. (1) Visual appearance (no damage that Velocite No. 3\n(Test at right) affects product characteristics) 50\u00b0C \u00d7 250 hours\n*7.Material name in EN standards. (2) Operation check (ON/OFF) Depth 10 cm\n(3) Insulation resistance (50 M min. at\n500V)\n(4) Dielectric strength (500V, 1 min.) Sensor\n(5) Water resistance (IP67)\n6",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 0.4,
+          "source_quality": 1.0,
+          "overall_score": 0.36,
+          "explainability": "4-Factor Score (0.36) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (0.4) \u00d7 Source Quality (1.0 - clean). Voltage 2.0V is suspiciously low."
+        },
+        "source_ref": {
+          "doc_id": "Test1_Datasheet",
+          "source_type": "pdf",
+          "page": 6,
+          "paragraph": 1,
+          "bbox": null
+        },
+        "source_snippet": "E2E\nRatings and Specifications\nSize 3 dia. 4 dia. 6.5 dia. M4 M5\nType Shielded Unshielded Shielded Unshielded Shielded Unshielded Shielded Unshielded Shielded Unshielded\nItem Model E2E-C03SR8 E2E-C03N02 E2E-C04S12 E2E-C04N03 E2E-C06S02 E2E-C06N04 E2E-S04SR8 E2E-S04N02 E2E-S05S12 E2E-S05N03\nSensing distance\n0.8 mm \u00b110% 2 mm \u00b110% 1.2 mm \u00b110% 3 mm \u00b110% 2 mm \u00b110% 4 mm \u00b110% 0.8 mm \u00b110% 2 mm \u00b110% 1.2 mm \u00b110% 3 mm \u00b110%\n(at 23\u00b0C)\nSetting distance *1\n0 to 0.56 mm 0 to 1.4 mm 0 to 0.84 mm 0 to 2.1 mm 0 to 1.4 mm 0 to 2.8 mm 0 to 0.56 mm 0 to 1.4 mm 0 to 0.84 mm 0 to 2.1 mm\n(Sensing distance \u00d7 0.7)\nDifferential travel 15% max. of sensing distance\nDetectable object Ferrous metal (The sensing distance decreases with non-ferrous metal. Refer to Engineering Data on page7.)\nStandard sensing Iron, Iron, Iron, Iron, Iron, Iron, Iron, Iron, Iron, Iron,\nobject 3 \u00d7 3 \u00d7 1mm 6 \u00d7 6 \u00d7 1 mm 4 \u00d7 4 \u00d7 1 mm 9 \u00d7 9 \u00d7 1 mm 6.5 \u00d7 6.5 \u00d7 1 mm 12 \u00d7 12 \u00d7 1mm 3 \u00d7 3 \u00d7 1 mm 6 \u00d7 6 \u00d7 1 mm 4 \u00d7 4 \u00d7 1 mm 9 \u00d7 9 \u00d7 1 mm\nResponse frequency 5 kHz 3.5 kHz 4 kHz 2 kHz 3 kHz 3 kHz 5 kHz 3.5 kHz 4 kHz 2 kHz\nPower supply voltage\n10 to 30 VDC (including 10% ripple (p-p))\n*2\nCurrent consumption 10 mA max.\n200 mA max.\nControl Load current 50 mA max. 100 mA max. (60 to 70\u00b0C: 100 mA) 50 mA max. 100 mA max.\noutput\n*3 Residual 2 V max. *5\nvoltage\nIndicators Operation indicator: Yellow (complies with European standard EN60947-5-2) Lights during output.\nOperation mode\nB1/B2: PNP open collector, C1/C2: NPN open collector\n(with sensing object\nB1/C1 models: NO, B2/C2 models: NC\napproaching)\nProtection circuits Output reverse polarity protection, Power source circuit reverse polarity protection, Surge suppressor, Load short-circit protection\nAmbient\nOperation and storage: \u221225 to 70\u00b0C (with no ice or condensation)\ntemperature range\nAmbient\nOperation and storage: 35% to 95% (with no condensation)\nhumidity range\nTemperature\n15% max. of sensing distance at 23\u00b0C within temperature range of \u221225 to 70\u00b0C\ninfluence\nVoltage influence 2.5% max. of sensing distance at rated voltage in the rated voltage 15% range\nInsulation resistance 50 M min. (at 500 VDC) between current-carrying parts and case\nDielectric strength 500 VAC, 50/60 Hz for 1 minute between current-carrying parts and case\nVibration resistance Destruction: 10 to 55 Hz, 1.5-mm double amplitude for 2 hours each in X, Y, and Z directions\nShock resistance Destruction: 500 m/s2 10 times each in X, Y, and Z directions\nDegree of protection IEC 60529 IP67, in-house standards: oil-resistant *6\nPre-wired\nYes Yes Yes Yes Yes\nModels\nM8 Pre-wired\nConnecting\nConnector Yes Yes Yes Yes Yes\nmethod\nModels\nM8 Connector\nNo Yes Yes No Yes\nModels\nPre-wired\nApprox. 25 g Approx. 30 g Approx. 35 g Approx. 35 g Approx. 55 g Approx. 55 g Approx. 30 g Approx. 30 g Approx. 35 g Approx. 40 g\nModels\nWeight M8 Pre-wired\n(packed Connector Approx. 20 g Approx. 20 g Approx. 15 g Approx. 20 g Approx. 20 g Approx. 25 g Approx. 20 g Approx. 20 g Approx. 20 g Approx. 20 g\nstate) Models\nM8 Connector\n--- --- Approx. 10 g Approx. 10 g Approx. 10 g Approx. 15 g --- --- Approx. 15 g Approx. 15 g\nModels\nCase SUS303 (EN1.4305 *7)\nSensing\nHeat-resistant ABS\nsurface\nClamping\nMaterials No SUS430 (EN1.4016 *7)\nnuts *4\nToothed\nNo SUS303 (EN1.4305 *7)\nwasher *4\nCable PVC\nInstruction\nYes\nmanual\nAccessories Model label Yes\nMounting\nSold separately\nbrackets\n*1.Operating within the set distance enables high-speed responsiveness and a more stable repeat accuracy.\n*2.When used with a 12 V power source, the Sensor is less susceptible to the effects of internal heat generation. Therefore a more stable repeat accuracy can\nbe obtained.\n*3.When the control output is 20 mA or less, the Sensor is less susceptible to the effects of internal heat generation. Therefore a more stable repeat accuracy can be\nobtained.\n*4.Nuts: 2 pieces, toothed washer: 1 piece\n*5.3 dia., M4: load current 50 mA, cable length 2 m Oil resistance test\n4 dia., M5: load current 100 mA, cable length 2 m After the test time elapses, the characteristics\n6.5 dia.: load current 200 mA, cord length 2 m below are checked for problems.\n*6.Oil resistance in-house standard: Performance with respect Test oil: Water insoluble oil\nto water insoluble oil. (1) Visual appearance (no damage that Velocite No. 3\n(Test at right) affects product characteristics) 50\u00b0C \u00d7 250 hours\n*7.Material name in EN standards. (2) Operation check (ON/OFF) Depth 10 cm\n(3) Insulation resistance (50 M min. at\n500 VDC)\n(4) Dielectric strength (500 VAC, 1 min.) Sensor\n(5) Water resistance (IP67)\n6",
+        "chunk_id": "Test1_Datasheet_c71",
+        "source_quality": "clean",
+        "status": "needs_review",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Test1.pdf"
+    ],
+    "trust_score": 0.9,
+    "publication_status": "needs_review",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "Test4_Datasheet",
+    "product_name": "Industrial Product Test4_Datasheet",
+    "mfg_part_num": "Test4_Datasheet",
+    "manufacturer": "Industrial OEM",
+    "brand": "Clarion Verified",
+    "category": "Industrial Electromechanical",
+    "grounded_description": "Industrial Product Test4_Datasheet. Certified industrial component engineered with verified attributes: Standard industrial specification.",
+    "fields": {},
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Test4.pdf"
+    ],
+    "trust_score": 0.5,
+    "publication_status": "needs_review",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_1",
+    "product_name": "Freud Inc DCB518ASTS06G",
+    "mfg_part_num": "DCB518ASTS06G",
+    "manufacturer": "Freud Inc",
+    "brand": "Freud Inc",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Freud Inc DCB518ASTS06G. Certified industrial component engineered with verified attributes: Size: 1/2\", Selling Qty: 6pc.",
+    "fields": {
+      "size": {
+        "field_name": "size",
+        "raw_value": "1/2\"",
+        "normalized_value": "1/2\"",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "row_1",
+          "source_type": "csv",
+          "row": "row_1"
+        },
+        "source_snippet": "DCB518ASTS06G Diablo 1/2\"x18\" - Sanding Belt 6pc",
+        "chunk_id": "row_1_size",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "selling_qty": {
+        "field_name": "selling_qty",
+        "raw_value": "6pc",
+        "normalized_value": "6pc",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "row_1",
+          "source_type": "csv",
+          "row": "row_1"
+        },
+        "source_snippet": "DCB518ASTS06G Diablo 1/2\"x18\" - Sanding Belt 6pc",
+        "chunk_id": "row_1_selling_qty",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_2",
+    "product_name": "Jam Industrial Supply LLC 3MABR-7100075678",
+    "mfg_part_num": "3MABR-7100075678",
+    "manufacturer": "Jam Industrial Supply LLC",
+    "brand": "Jam Industrial Supply LLC",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Jam Industrial Supply LLC 3MABR-7100075678. Certified industrial component engineered with verified attributes: Grit: P150, Selling Qty: 50 Disc/Box.",
+    "fields": {
+      "grit": {
+        "field_name": "grit",
+        "raw_value": "P150",
+        "normalized_value": "P150",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "row_2",
+          "source_type": "csv",
+          "row": "row_2"
+        },
+        "source_snippet": "3M 775L Stikit Film P150 - Cubitron II 50 Disc/Box",
+        "chunk_id": "row_2_grit",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "selling_qty": {
+        "field_name": "selling_qty",
+        "raw_value": "50 Disc/Box",
+        "normalized_value": "50 Disc/Box",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "row_2",
+          "source_type": "csv",
+          "row": "row_2"
+        },
+        "source_snippet": "3M 775L Stikit Film P150 - Cubitron II 50 Disc/Box",
+        "chunk_id": "row_2_selling_qty",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_3",
+    "product_name": "Jam Industrial Supply LLC 3MABR-7100045865",
+    "mfg_part_num": "3MABR-7100045865",
+    "manufacturer": "Jam Industrial Supply LLC",
+    "brand": "Jam Industrial Supply LLC",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Jam Industrial Supply LLC 3MABR-7100045865. Certified industrial component engineered with verified attributes: Grit: P120, Selling Qty: 50 Disc/Box.",
+    "fields": {
+      "grit": {
+        "field_name": "grit",
+        "raw_value": "P120",
+        "normalized_value": "P120",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "row_3",
+          "source_type": "csv",
+          "row": "row_3"
+        },
+        "source_snippet": "3M 775L Stikit Film P120 - Cubitron II 50 Disc/Box",
+        "chunk_id": "row_3_grit",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "selling_qty": {
+        "field_name": "selling_qty",
+        "raw_value": "50 Disc/Box",
+        "normalized_value": "50 Disc/Box",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "row_3",
+          "source_type": "csv",
+          "row": "row_3"
+        },
+        "source_snippet": "3M 775L Stikit Film P120 - Cubitron II 50 Disc/Box",
+        "chunk_id": "row_3_selling_qty",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_4",
+    "product_name": "Jam Industrial Supply LLC 3MABR-7100048736",
+    "mfg_part_num": "3MABR-7100048736",
+    "manufacturer": "Jam Industrial Supply LLC",
+    "brand": "Jam Industrial Supply LLC",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Jam Industrial Supply LLC 3MABR-7100048736. Certified industrial component engineered with verified attributes: Grit: P80, Selling Qty: 50 Disc/Box.",
+    "fields": {
+      "grit": {
+        "field_name": "grit",
+        "raw_value": "P80",
+        "normalized_value": "P80",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "row_4",
+          "source_type": "csv",
+          "row": "row_4"
+        },
+        "source_snippet": "3M 775L Stikit Film P80 - Cubitron II 50 Disc/Box",
+        "chunk_id": "row_4_grit",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "selling_qty": {
+        "field_name": "selling_qty",
+        "raw_value": "50 Disc/Box",
+        "normalized_value": "50 Disc/Box",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "row_4",
+          "source_type": "csv",
+          "row": "row_4"
+        },
+        "source_snippet": "3M 775L Stikit Film P80 - Cubitron II 50 Disc/Box",
+        "chunk_id": "row_4_selling_qty",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_5",
+    "product_name": "Jam Industrial Supply LLC 3MABR-7100075690",
+    "mfg_part_num": "3MABR-7100075690",
+    "manufacturer": "Jam Industrial Supply LLC",
+    "brand": "Jam Industrial Supply LLC",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Jam Industrial Supply LLC 3MABR-7100075690. Certified industrial component engineered with verified attributes: Grit: P180, Selling Qty: 50 Disc/Box.",
+    "fields": {
+      "grit": {
+        "field_name": "grit",
+        "raw_value": "P180",
+        "normalized_value": "P180",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "row_5",
+          "source_type": "csv",
+          "row": "row_5"
+        },
+        "source_snippet": "3M 775L Stikit Film P180 - Cubitron II 50 Disc/Box",
+        "chunk_id": "row_5_grit",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "selling_qty": {
+        "field_name": "selling_qty",
+        "raw_value": "50 Disc/Box",
+        "normalized_value": "50 Disc/Box",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "row_5",
+          "source_type": "csv",
+          "row": "row_5"
+        },
+        "source_snippet": "3M 775L Stikit Film P180 - Cubitron II 50 Disc/Box",
+        "chunk_id": "row_5_selling_qty",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_6",
+    "product_name": "Jam Industrial Supply LLC 3MABR-7100075692",
+    "mfg_part_num": "3MABR-7100075692",
+    "manufacturer": "Jam Industrial Supply LLC",
+    "brand": "Jam Industrial Supply LLC",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Jam Industrial Supply LLC 3MABR-7100075692. Certified industrial component engineered with verified attributes: Grit: P220, Selling Qty: 50 Disc/Box.",
+    "fields": {
+      "grit": {
+        "field_name": "grit",
+        "raw_value": "P220",
+        "normalized_value": "P220",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "row_6",
+          "source_type": "csv",
+          "row": "row_6"
+        },
+        "source_snippet": "3M 775L Stikit Film P220 - Cubitron II 50 Disc/Box",
+        "chunk_id": "row_6_grit",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "selling_qty": {
+        "field_name": "selling_qty",
+        "raw_value": "50 Disc/Box",
+        "normalized_value": "50 Disc/Box",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "row_6",
+          "source_type": "csv",
+          "row": "row_6"
+        },
+        "source_snippet": "3M 775L Stikit Film P220 - Cubitron II 50 Disc/Box",
+        "chunk_id": "row_6_selling_qty",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_7",
+    "product_name": "Jam Industrial Supply LLC 3MABR-7100145365",
+    "mfg_part_num": "3MABR-7100145365",
+    "manufacturer": "Jam Industrial Supply LLC",
+    "brand": "Jam Industrial Supply LLC",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Jam Industrial Supply LLC 3MABR-7100145365. Certified industrial component engineered with verified attributes: Grit: P320, Selling Qty: 50 Disc/Box.",
+    "fields": {
+      "grit": {
+        "field_name": "grit",
+        "raw_value": "P320",
+        "normalized_value": "P320",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "row_7",
+          "source_type": "csv",
+          "row": "row_7"
+        },
+        "source_snippet": "3M 775L Stikit Film P320 - Cubitron II 50 Disc/Box",
+        "chunk_id": "row_7_grit",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "selling_qty": {
+        "field_name": "selling_qty",
+        "raw_value": "50 Disc/Box",
+        "normalized_value": "50 Disc/Box",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "row_7",
+          "source_type": "csv",
+          "row": "row_7"
+        },
+        "source_snippet": "3M 775L Stikit Film P320 - Cubitron II 50 Disc/Box",
+        "chunk_id": "row_7_selling_qty",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_8",
+    "product_name": "Mirka Abrasives Inc 5B-332-080",
+    "mfg_part_num": "5B-332-080",
+    "manufacturer": "Mirka Abrasives Inc",
+    "brand": "Mirka Abrasives Inc",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Mirka Abrasives Inc 5B-332-080. Certified industrial component engineered with verified attributes: Size: 5\", Grit: P80.",
+    "fields": {
+      "size": {
+        "field_name": "size",
+        "raw_value": "5\"",
+        "normalized_value": "5\"",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "row_8",
+          "source_type": "csv",
+          "row": "row_8"
+        },
+        "source_snippet": "5B-332-080 HIOLIT 5\" P80",
+        "chunk_id": "row_8_size",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "grit": {
+        "field_name": "grit",
+        "raw_value": "P80",
+        "normalized_value": "P80",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "row_8",
+          "source_type": "csv",
+          "row": "row_8"
+        },
+        "source_snippet": "5B-332-080 HIOLIT 5\" P80",
+        "chunk_id": "row_8_grit",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_9",
+    "product_name": "Mirka Abrasives Inc 5B-332-120",
+    "mfg_part_num": "5B-332-120",
+    "manufacturer": "Mirka Abrasives Inc",
+    "brand": "Mirka Abrasives Inc",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Mirka Abrasives Inc 5B-332-120. Certified industrial component engineered with verified attributes: Size: 5\", Grit: P120.",
+    "fields": {
+      "size": {
+        "field_name": "size",
+        "raw_value": "5\"",
+        "normalized_value": "5\"",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "row_9",
+          "source_type": "csv",
+          "row": "row_9"
+        },
+        "source_snippet": "5B-332-120 HIOLIT 5\" P120",
+        "chunk_id": "row_9_size",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "grit": {
+        "field_name": "grit",
+        "raw_value": "P120",
+        "normalized_value": "P120",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "row_9",
+          "source_type": "csv",
+          "row": "row_9"
+        },
+        "source_snippet": "5B-332-120 HIOLIT 5\" P120",
+        "chunk_id": "row_9_grit",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_10",
+    "product_name": "Mirka Abrasives Inc 9A-570-240",
+    "mfg_part_num": "9A-570-240",
+    "manufacturer": "Mirka Abrasives Inc",
+    "brand": "Mirka Abrasives Inc",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Mirka Abrasives Inc 9A-570-240. Certified industrial component engineered with verified attributes: Standard industrial specification.",
+    "fields": {},
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.85,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_11",
+    "product_name": "Mirka Abrasives Inc 9A-570-320",
+    "mfg_part_num": "9A-570-320",
+    "manufacturer": "Mirka Abrasives Inc",
+    "brand": "Mirka Abrasives Inc",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Mirka Abrasives Inc 9A-570-320. Certified industrial component engineered with verified attributes: Standard industrial specification.",
+    "fields": {},
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.85,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_12",
+    "product_name": "Freud Inc DBD090094101F",
+    "mfg_part_num": "DBD090094101F",
+    "manufacturer": "Freud Inc",
+    "brand": "Freud Inc",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Freud Inc DBD090094101F. Certified industrial component engineered with verified attributes: Size: 9\".",
+    "fields": {
+      "size": {
+        "field_name": "size",
+        "raw_value": "9\"",
+        "normalized_value": "9\"",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "row_12",
+          "source_type": "csv",
+          "row": "row_12"
+        },
+        "source_snippet": "DBD090094101F Diablo 9\" - Metal Cut-Off Disc",
+        "chunk_id": "row_12_size",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_13",
+    "product_name": "Freud Inc DBDS12125A01F",
+    "mfg_part_num": "DBDS12125A01F",
+    "manufacturer": "Freud Inc",
+    "brand": "Freud Inc",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Freud Inc DBDS12125A01F. Certified industrial component engineered with verified attributes: Size: 12\".",
+    "fields": {
+      "size": {
+        "field_name": "size",
+        "raw_value": "12\"",
+        "normalized_value": "12\"",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "row_13",
+          "source_type": "csv",
+          "row": "row_13"
+        },
+        "source_snippet": "DBDS12125A01F Diablo 12\" - Steel Demon Metal Cut-Off Disc",
+        "chunk_id": "row_13_size",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_14",
+    "product_name": "Freud Inc DBDS12125G01F",
+    "mfg_part_num": "DBDS12125G01F",
+    "manufacturer": "Freud Inc",
+    "brand": "Freud Inc",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Freud Inc DBDS12125G01F. Certified industrial component engineered with verified attributes: Size: 12\".",
+    "fields": {
+      "size": {
+        "field_name": "size",
+        "raw_value": "12\"",
+        "normalized_value": "12\"",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "row_14",
+          "source_type": "csv",
+          "row": "row_14"
+        },
+        "source_snippet": "DBDS12125G01F Diablo 12\"x20mm - Speed Demon Metal Cut-Off Disc",
+        "chunk_id": "row_14_size",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_15",
+    "product_name": "Freud Inc DBDS14125A01F",
+    "mfg_part_num": "DBDS14125A01F",
+    "manufacturer": "Freud Inc",
+    "brand": "Freud Inc",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Freud Inc DBDS14125A01F. Certified industrial component engineered with verified attributes: Size: 14\".",
+    "fields": {
+      "size": {
+        "field_name": "size",
+        "raw_value": "14\"",
+        "normalized_value": "14\"",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "row_15",
+          "source_type": "csv",
+          "row": "row_15"
+        },
+        "source_snippet": "DBDS14125A01F Diablo 14\"x1\" - Steel Demon Metal Cut-Off Disc",
+        "chunk_id": "row_15_size",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_16",
+    "product_name": "Freud Inc DBDS14125G01F",
+    "mfg_part_num": "DBDS14125G01F",
+    "manufacturer": "Freud Inc",
+    "brand": "Freud Inc",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Freud Inc DBDS14125G01F. Certified industrial component engineered with verified attributes: Size: 14\".",
+    "fields": {
+      "size": {
+        "field_name": "size",
+        "raw_value": "14\"",
+        "normalized_value": "14\"",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "row_16",
+          "source_type": "csv",
+          "row": "row_16"
+        },
+        "source_snippet": "DBDS14125G01F Diablo 14\"x20mm - Steel Demon Metal Cut-Off Disc",
+        "chunk_id": "row_16_size",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_17",
+    "product_name": "Milwaukee Accessory 49-94-0013",
+    "mfg_part_num": "49-94-0013",
+    "manufacturer": "Milwaukee Accessory",
+    "brand": "Milwaukee Accessory",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Milwaukee Accessory 49-94-0013. Certified industrial component engineered with verified attributes: Size: 5\".",
+    "fields": {
+      "size": {
+        "field_name": "size",
+        "raw_value": "5\"",
+        "normalized_value": "5\"",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "row_17",
+          "source_type": "csv",
+          "row": "row_17"
+        },
+        "source_snippet": "49-94-0013 Milw 5\"x.045\"x7/8\" Metal Cut Off Disc",
+        "chunk_id": "row_17_size",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_18",
+    "product_name": "Milwaukee Accessory 49-94-0029",
+    "mfg_part_num": "49-94-0029",
+    "manufacturer": "Milwaukee Accessory",
+    "brand": "Milwaukee Accessory",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Milwaukee Accessory 49-94-0029. Certified industrial component engineered with verified attributes: Size: 1/2\".",
+    "fields": {
+      "size": {
+        "field_name": "size",
+        "raw_value": "1/2\"",
+        "normalized_value": "1/2\"",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "row_18",
+          "source_type": "csv",
+          "row": "row_18"
+        },
+        "source_snippet": "49-94-0029 Milw 6-1/2\"x1/8\"x5/8\" DKO Metal Cut Off Disc",
+        "chunk_id": "row_18_size",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_19",
+    "product_name": "Milwaukee Accessory 49-94-0033",
+    "mfg_part_num": "49-94-0033",
+    "manufacturer": "Milwaukee Accessory",
+    "brand": "Milwaukee Accessory",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Milwaukee Accessory 49-94-0033. Certified industrial component engineered with verified attributes: Size: 7\".",
+    "fields": {
+      "size": {
+        "field_name": "size",
+        "raw_value": "7\"",
+        "normalized_value": "7\"",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "row_19",
+          "source_type": "csv",
+          "row": "row_19"
+        },
+        "source_snippet": "49-94-0033 Milw 7\"x1/16\"x7/8\" Metal Cut Off Disc",
+        "chunk_id": "row_19_size",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_20",
+    "product_name": "Milwaukee Accessory 49-94-0001",
+    "mfg_part_num": "49-94-0001",
+    "manufacturer": "Milwaukee Accessory",
+    "brand": "Milwaukee Accessory",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Milwaukee Accessory 49-94-0001. Certified industrial component engineered with verified attributes: Size: 4\".",
+    "fields": {
+      "size": {
+        "field_name": "size",
+        "raw_value": "4\"",
+        "normalized_value": "4\"",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "row_20",
+          "source_type": "csv",
+          "row": "row_20"
+        },
+        "source_snippet": "49-94-0001 Milw 4\"x.040\"x5/8\" Metal Cut Off Disc",
+        "chunk_id": "row_20_size",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_21",
+    "product_name": "Milwaukee Accessory 49-94-0039",
+    "mfg_part_num": "49-94-0039",
+    "manufacturer": "Milwaukee Accessory",
+    "brand": "Milwaukee Accessory",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Milwaukee Accessory 49-94-0039. Certified industrial component engineered with verified attributes: Size: 7\".",
+    "fields": {
+      "size": {
+        "field_name": "size",
+        "raw_value": "7\"",
+        "normalized_value": "7\"",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "row_21",
+          "source_type": "csv",
+          "row": "row_21"
+        },
+        "source_snippet": "49-94-0039 Milw 7\"x1/8\"x5/8\" DKO Metal Cut Off Disc",
+        "chunk_id": "row_21_size",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_22",
+    "product_name": "Milwaukee Accessory 49-94-0043",
+    "mfg_part_num": "49-94-0043",
+    "manufacturer": "Milwaukee Accessory",
+    "brand": "Milwaukee Accessory",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Milwaukee Accessory 49-94-0043. Certified industrial component engineered with verified attributes: Size: 9\".",
+    "fields": {
+      "size": {
+        "field_name": "size",
+        "raw_value": "9\"",
+        "normalized_value": "9\"",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "row_22",
+          "source_type": "csv",
+          "row": "row_22"
+        },
+        "source_snippet": "49-94-0043 Milw 9\"x3/32\"x7/8\" Metal Cut Off Disc",
+        "chunk_id": "row_22_size",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_23",
+    "product_name": "Milwaukee Accessory 49-94-0048",
+    "mfg_part_num": "49-94-0048",
+    "manufacturer": "Milwaukee Accessory",
+    "brand": "Milwaukee Accessory",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Milwaukee Accessory 49-94-0048. Certified industrial component engineered with verified attributes: Size: 12\".",
+    "fields": {
+      "size": {
+        "field_name": "size",
+        "raw_value": "12\"",
+        "normalized_value": "12\"",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "row_23",
+          "source_type": "csv",
+          "row": "row_23"
+        },
+        "source_snippet": "49-94-0048 Milw 12\"x7/64\"x1\" Metal Cut Off Disc General Purpose",
+        "chunk_id": "row_23_size",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_24",
+    "product_name": "Milwaukee Accessory 49-94-0053",
+    "mfg_part_num": "49-94-0053",
+    "manufacturer": "Milwaukee Accessory",
+    "brand": "Milwaukee Accessory",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Milwaukee Accessory 49-94-0053. Certified industrial component engineered with verified attributes: Size: 12\".",
+    "fields": {
+      "size": {
+        "field_name": "size",
+        "raw_value": "12\"",
+        "normalized_value": "12\"",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "row_24",
+          "source_type": "csv",
+          "row": "row_24"
+        },
+        "source_snippet": "49-94-0053 Milw 12\"x1/8\"x1\" Metal Cut Off Disc",
+        "chunk_id": "row_24_size",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_25",
+    "product_name": "Milwaukee Accessory 49-94-0058",
+    "mfg_part_num": "49-94-0058",
+    "manufacturer": "Milwaukee Accessory",
+    "brand": "Milwaukee Accessory",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Milwaukee Accessory 49-94-0058. Certified industrial component engineered with verified attributes: Size: 12\".",
+    "fields": {
+      "size": {
+        "field_name": "size",
+        "raw_value": "12\"",
+        "normalized_value": "12\"",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "row_25",
+          "source_type": "csv",
+          "row": "row_25"
+        },
+        "source_snippet": "49-94-0058 Milw 12\"x1/8\"x20mm Metal Cut Off Disc",
+        "chunk_id": "row_25_size",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_26",
+    "product_name": "Milwaukee Accessory 49-94-0063",
+    "mfg_part_num": "49-94-0063",
+    "manufacturer": "Milwaukee Accessory",
+    "brand": "Milwaukee Accessory",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Milwaukee Accessory 49-94-0063. Certified industrial component engineered with verified attributes: Size: 14\".",
+    "fields": {
+      "size": {
+        "field_name": "size",
+        "raw_value": "14\"",
+        "normalized_value": "14\"",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "row_26",
+          "source_type": "csv",
+          "row": "row_26"
+        },
+        "source_snippet": "49-94-0063 Milw 14\"x7/64\"x1\" Metal Cut Off Disc General Purpose",
+        "chunk_id": "row_26_size",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_27",
+    "product_name": "Milwaukee Accessory 49-94-0068",
+    "mfg_part_num": "49-94-0068",
+    "manufacturer": "Milwaukee Accessory",
+    "brand": "Milwaukee Accessory",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Milwaukee Accessory 49-94-0068. Certified industrial component engineered with verified attributes: Size: 14\".",
+    "fields": {
+      "size": {
+        "field_name": "size",
+        "raw_value": "14\"",
+        "normalized_value": "14\"",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "row_27",
+          "source_type": "csv",
+          "row": "row_27"
+        },
+        "source_snippet": "49-94-0068 Milw 14\"x1/8\"x20mm Metal Cut Off Disc",
+        "chunk_id": "row_27_size",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_28",
+    "product_name": "Milwaukee Accessory 49-94-0073",
+    "mfg_part_num": "49-94-0073",
+    "manufacturer": "Milwaukee Accessory",
+    "brand": "Milwaukee Accessory",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Milwaukee Accessory 49-94-0073. Certified industrial component engineered with verified attributes: Size: 14\".",
+    "fields": {
+      "size": {
+        "field_name": "size",
+        "raw_value": "14\"",
+        "normalized_value": "14\"",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "row_28",
+          "source_type": "csv",
+          "row": "row_28"
+        },
+        "source_snippet": "49-94-0073 Milw 14\"x1/8\"x1\" Metal Cut Off Disc",
+        "chunk_id": "row_28_size",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_29",
+    "product_name": "Milwaukee Accessory 49-94-0101",
+    "mfg_part_num": "49-94-0101",
+    "manufacturer": "Milwaukee Accessory",
+    "brand": "Milwaukee Accessory",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Milwaukee Accessory 49-94-0101. Certified industrial component engineered with verified attributes: Size: 1/2\", Selling Qty: 10pc.",
+    "fields": {
+      "size": {
+        "field_name": "size",
+        "raw_value": "1/2\"",
+        "normalized_value": "1/2\"",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "row_29",
+          "source_type": "csv",
+          "row": "row_29"
+        },
+        "source_snippet": "49-94-0101 Milw 4-1/2\"x.045\"x7/8\" Perform+ Metal Cut Off Disc 10pc",
+        "chunk_id": "row_29_size",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "selling_qty": {
+        "field_name": "selling_qty",
+        "raw_value": "10pc",
+        "normalized_value": "10pc",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "row_29",
+          "source_type": "csv",
+          "row": "row_29"
+        },
+        "source_snippet": "49-94-0101 Milw 4-1/2\"x.045\"x7/8\" Perform+ Metal Cut Off Disc 10pc",
+        "chunk_id": "row_29_selling_qty",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "row_30",
+    "product_name": "Milwaukee Accessory 49-94-0107",
+    "mfg_part_num": "49-94-0107",
+    "manufacturer": "Milwaukee Accessory",
+    "brand": "Milwaukee Accessory",
+    "category": "Industrial Abrasives & Hardware",
+    "grounded_description": "Milwaukee Accessory 49-94-0107. Certified industrial component engineered with verified attributes: Size: 1/2\".",
+    "fields": {
+      "size": {
+        "field_name": "size",
+        "raw_value": "1/2\"",
+        "normalized_value": "1/2\"",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "row_30",
+          "source_type": "csv",
+          "row": "row_30"
+        },
+        "source_snippet": "49-94-0107 Milw 4-1/2\"x.045\"x7/8\" Performance+ Metal Cut Off Disc",
+        "chunk_id": "row_30_size",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\samples\\Unihack_Sample_Dataset_Input.csv"
+    ],
+    "trust_score": 0.95,
+    "publication_status": "auto_published",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:34:33",
+    "updated_at": "2026-08-23T10:34:33"
+  },
+  {
+    "record_id": "doc_ca68cdd4",
+    "product_name": "Model E2E\nE2E (Small Diameter) Model Number Legend\nNo. Classification Code Meaning\nS SUS, threaded\nHousing material and shape\nC SUS, cylindrical\n03 Outer diameter 3 mm\n04 Outer diameter 4 mm\nSize\n05 Outer diameter 5 mm\n06 Outer diameter 6.5 mm\nS Shielded Models\nShielding\nN Unshielded Models\nSensing distance Number R8: 0.8 mm, 12: 1.2 mm, 02: 2 mm, 03: 3 mm, 04: 4 mm\nWC PVC Pre-wired Model\nConnection method MC M8 Connector, 3-pin\nCJ M8 Pre-wired Connector, 3-pin\nB DC 3-wire PNP open-collector output\nOutput specifications\nC DC 3-wire NPN open-collector output\n1 Normally open (NO)\nOperation mode\n2 Normally closed (NC)\nBlank Connector Models\nCable length Cable length (Unit: m)\nNumber M\n(Applicable to Pre-wired Models 2M and Pre-wired Connector Models 0.3M)\nNote: The purpose of this model number legend is to provide an understanding of the model numbers and how they correlate to sensor specifications.\nModels are not available for all combinations of code numbers.\n2",
+    "mfg_part_num": "E2E\nE2E (Small Diameter) Model Number Legend\nNo. Classification Code Meaning\nS SUS, threaded\nHousing material and shape\nC SUS, cylindrical\n03 Outer diameter 3 mm\n04 Outer diameter 4 mm\nSize\n05 Outer diameter 5 mm\n06 Outer diameter 6.5 mm\nS Shielded Models\nShielding\nN Unshielded Models\nSensing distance Number R8: 0.8 mm, 12: 1.2 mm, 02: 2 mm, 03: 3 mm, 04: 4 mm\nWC PVC Pre-wired Model\nConnection method MC M8 Connector, 3-pin\nCJ M8 Pre-wired Connector, 3-pin\nB DC 3-wire PNP open-collector output\nOutput specifications\nC DC 3-wire NPN open-collector output\n1 Normally open (NO)\nOperation mode\n2 Normally closed (NC)\nBlank Connector Models\nCable length Cable length (Unit: m)\nNumber M\n(Applicable to Pre-wired Models 2M and Pre-wired Connector Models 0.3M)\nNote: The purpose of this model number legend is to provide an understanding of the model numbers and how they correlate to sensor specifications.\nModels are not available for all combinations of code numbers.\n2",
+    "manufacturer": "Industrial OEM",
+    "brand": "Clarion Verified",
+    "category": "Industrial Electromechanical",
+    "grounded_description": "Model E2E\nE2E (Small Diameter) Model Number Legend\nNo. Classification Code Meaning\nS SUS, threaded\nHousing material and shape\nC SUS, cylindrical\n03 Outer diameter 3 mm\n04 Outer diameter 4 mm\nSize\n05 Outer diameter 5 mm\n06 Outer diameter 6.5 mm\nS Shielded Models\nShielding\nN Unshielded Models\nSensing distance Number R8: 0.8 mm, 12: 1.2 mm, 02: 2 mm, 03: 3 mm, 04: 4 mm\nWC PVC Pre-wired Model\nConnection method MC M8 Connector, 3-pin\nCJ M8 Pre-wired Connector, 3-pin\nB DC 3-wire PNP open-collector output\nOutput specifications\nC DC 3-wire NPN open-collector output\n1 Normally open (NO)\nOperation mode\n2 Normally closed (NC)\nBlank Connector Models\nCable length Cable length (Unit: m)\nNumber M\n(Applicable to Pre-wired Models 2M and Pre-wired Connector Models 0.3M)\nNote: The purpose of this model number legend is to provide an understanding of the model numbers and how they correlate to sensor specifications.\nModels are not available for all combinations of code numbers.\n2. Certified industrial component engineered with verified attributes: Size: 6.5 dia., Model Number: E55I-E-01, Housing Material: Housing material and shape | S, Classification Code: C, Shielding: S.",
+    "fields": {
+      "size": {
+        "field_name": "size",
+        "raw_value": "6.5 dia.",
+        "normalized_value": "6.5 dia.",
+        "confidence": {
+          "self_consistency": 0.98,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.98,
+          "explainability": "4-Factor Score (0.98) = Self-Consistency (0.98) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "doc_ca68cdd4",
+          "source_type": "pdf",
+          "page": 11,
+          "paragraph": null,
+          "bbox": null
+        },
+        "source_snippet": "Size | 3 dia. |  | 4 dia. |  | 6.5 dia. | ",
+        "chunk_id": "doc_ca68cdd4_c141",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "model_number": {
+        "field_name": "model_number",
+        "raw_value": "E55I-E-01",
+        "normalized_value": "E55I-E-01",
+        "confidence": {
+          "self_consistency": 0.9,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.9,
+          "explainability": "4-Factor Score (0.9) = Self-Consistency (0.9) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "doc_ca68cdd4",
+          "source_type": "pdf",
+          "page": 17,
+          "paragraph": 1,
+          "bbox": null
+        },
+        "source_snippet": "OMRON AUTOMATION AND SAFETY \u2022 THE AMERICAS HEADQUARTERS \u2022 Schaumburg, IL USA \u2022 847.843.7900 \u2022 800.556.6766 \u2022 www.omron247.com\nOMRON CANADA, INC. \u2022 HEAD OFFICE OMRON ARGENTINA \u2022 SALES OFFICE\nToronto, ON, Canada \u2022 416.286.6465 \u2022 866.986.6766 \u2022 www.omron247.com Cono Sur \u2022 54.11.4783.5300\nOMRON ELECTRONICS DE MEXICO \u2022 HEAD OFFICE OMRON CHILE \u2022 SALES OFFICE\nM\u00e9xico DF \u2022 52.55.59.01.43.00 \u2022 001.800.556.6766 \u2022 mela@omron.com Santiago \u2022 56.9.9917.3920\nOMRON ELECTRONICS DE MEXICO \u2022 SALES OFFICE OTHER OMRON LATIN AMERICA SALES\nApodaca, N.L. \u2022 52.81.11.56.99.20 \u2022 001.800.556.6766 \u2022 mela@omron.com 54.11.4783.5300\nOMRON ELETR\u00d4NICA DO BRASIL LTDA \u2022 HEAD OFFICE\nS\u00e3o Paulo, SP, Brasil \u2022 55.11.2101.6300 \u2022 www.omron.com.br\nOMRON EUROpE B.V. \u2022 Wegalaan 67-69, NL-2132 JD, Hoofddorp, The Netherlands. \u2022 Tel: +31 (0) 23 568 13 00 \u2022 Fax: +31 (0) 23 568 13 88 \u2022 www.industrial.omron.eu\nAuthorized Distributor: Automation Control Systems\n\u2022 Machine Automation Controllers (MAC) \u2022 Programmable Controllers (PLC)\n\u2022 Operator interfaces (HMI) \u2022 Distributed I/O \u2022 Software\nDrives & Motion Controls\n\u2022 Servo & AC Drives \u2022 Motion Controllers & Encoders\nTemperature & process Controllers\n\u2022 Single and Multi-loop Controllers\nSensors & Vision\n\u2022 Proximity Sensors \u2022 Photoelectric Sensors \u2022 Fiber-Optic Sensors\n\u2022 Amplified Photomicrosensors \u2022 Measurement Sensors\n\u2022 Ultrasonic Sensors \u2022 Vision Sensors \u2022 RFID/Code Readers\nIndustrial Components\n\u2022 Relays \u2022 Pushbuttons & Indicators \u2022 Limit and Basic Switches \u2022 Timers\n\u2022 Counters \u2022 Metering Devices \u2022 Power Supplies\nSafety\n\u2022 Laser Scanners \u2022 Safety Mats \u2022 Edges and Bumpers\n\u2022 Programmable Safety Controllers \u2022 Light Curtains \u2022 Safety Relays\n\u2022 Safety Interlock Switches\nE55I-E-01 Note: Specifications are subject to change. \u00a9 2013 Omron Electronics LLC Printed in U.S.A.\nPrinted on recycled paper.",
+        "chunk_id": "doc_ca68cdd4_c158",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "housing_material": {
+        "field_name": "housing_material",
+        "raw_value": "Housing material and shape | S",
+        "normalized_value": "Housing material and shape | S",
+        "confidence": {
+          "self_consistency": 0.98,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.98,
+          "explainability": "4-Factor Score (0.98) = Self-Consistency (0.98) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "doc_ca68cdd4",
+          "source_type": "pdf",
+          "page": 2,
+          "paragraph": null,
+          "bbox": null
+        },
+        "source_snippet": "Housing material and shape | S",
+        "chunk_id": "doc_ca68cdd4_c4",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "classification_code": {
+        "field_name": "classification_code",
+        "raw_value": "C",
+        "normalized_value": "C",
+        "confidence": {
+          "self_consistency": 0.98,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.98,
+          "explainability": "4-Factor Score (0.98) = Self-Consistency (0.98) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "doc_ca68cdd4",
+          "source_type": "pdf",
+          "page": 8,
+          "paragraph": null,
+          "bbox": null
+        },
+        "source_snippet": "12 VD | C |  |  |  | ",
+        "chunk_id": "doc_ca68cdd4_c123",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "shielding": {
+        "field_name": "shielding",
+        "raw_value": "S",
+        "normalized_value": "S",
+        "confidence": {
+          "self_consistency": 0.98,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.98,
+          "explainability": "4-Factor Score (0.98) = Self-Consistency (0.98) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "doc_ca68cdd4",
+          "source_type": "pdf",
+          "page": 2,
+          "paragraph": null,
+          "bbox": null
+        },
+        "source_snippet": "Shielding | S",
+        "chunk_id": "doc_ca68cdd4_c6",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "connection_method": {
+        "field_name": "connection_method",
+        "raw_value": "WC",
+        "normalized_value": "WC",
+        "confidence": {
+          "self_consistency": 0.98,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.98,
+          "explainability": "4-Factor Score (0.98) = Self-Consistency (0.98) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "doc_ca68cdd4",
+          "source_type": "pdf",
+          "page": 2,
+          "paragraph": null,
+          "bbox": null
+        },
+        "source_snippet": "Connection method | WC",
+        "chunk_id": "doc_ca68cdd4_c8",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "operation_mode": {
+        "field_name": "operation_mode",
+        "raw_value": "1",
+        "normalized_value": "1",
+        "confidence": {
+          "self_consistency": 0.98,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.98,
+          "explainability": "4-Factor Score (0.98) = Self-Consistency (0.98) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "doc_ca68cdd4",
+          "source_type": "pdf",
+          "page": 2,
+          "paragraph": null,
+          "bbox": null
+        },
+        "source_snippet": "Operation mode | 1",
+        "chunk_id": "doc_ca68cdd4_c10",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "output_type": {
+        "field_name": "output_type",
+        "raw_value": "NPN output, PNP output",
+        "normalized_value": "NPN output, PNP output",
+        "confidence": {
+          "self_consistency": 0.98,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.98,
+          "explainability": "4-Factor Score (0.98) = Self-Consistency (0.98) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "doc_ca68cdd4",
+          "source_type": "pdf",
+          "page": 3,
+          "paragraph": null,
+          "bbox": null
+        },
+        "source_snippet": " |  |  |  |  |  | NPN output | PNP output",
+        "chunk_id": "doc_ca68cdd4_c15",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "model_number_primary": {
+        "field_name": "model_number_primary",
+        "raw_value": "E2E-C04N03-WC-C2 2M",
+        "normalized_value": "E2E-C04N03-WC-C2 2M",
+        "confidence": {
+          "self_consistency": 0.98,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.98,
+          "explainability": "4-Factor Score (0.98) = Self-Consistency (0.98) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "doc_ca68cdd4",
+          "source_type": "pdf",
+          "page": 4,
+          "paragraph": null,
+          "bbox": null
+        },
+        "source_snippet": " |  |  |  | NC |  | E2E-C04N03-WC-C2 2M | E2E-C04N03-WC-B2 2M",
+        "chunk_id": "doc_ca68cdd4_c50",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "model_number_secondary": {
+        "field_name": "model_number_secondary",
+        "raw_value": "E2E-C04N03-WC-B2 2M",
+        "normalized_value": "E2E-C04N03-WC-B2 2M",
+        "confidence": {
+          "self_consistency": 0.98,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.98,
+          "explainability": "4-Factor Score (0.98) = Self-Consistency (0.98) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "doc_ca68cdd4",
+          "source_type": "pdf",
+          "page": 4,
+          "paragraph": null,
+          "bbox": null
+        },
+        "source_snippet": " |  |  |  | NC |  | E2E-C04N03-WC-C2 2M | E2E-C04N03-WC-B2 2M",
+        "chunk_id": "doc_ca68cdd4_c50",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "connector_type": {
+        "field_name": "connector_type",
+        "raw_value": "M8 Connector",
+        "normalized_value": "M8 Connector",
+        "confidence": {
+          "self_consistency": 0.98,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.98,
+          "explainability": "4-Factor Score (0.98) = Self-Consistency (0.98) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "doc_ca68cdd4",
+          "source_type": "pdf",
+          "page": 4,
+          "paragraph": null,
+          "bbox": null
+        },
+        "source_snippet": " |  | M8 Connector\nModels | --- | NO |  | E2E-S05N03-MC-C1 | ",
+        "chunk_id": "doc_ca68cdd4_c69",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "rated_voltage": {
+        "field_name": "rated_voltage",
+        "raw_value": "24 VDC",
+        "normalized_value": "24V",
+        "confidence": {
+          "self_consistency": 0.98,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.98,
+          "explainability": "4-Factor Score (0.98) = Self-Consistency (0.98) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Voltage within standard industrial operating range."
+        },
+        "source_ref": {
+          "doc_id": "doc_ca68cdd4",
+          "source_type": "pdf",
+          "page": 8,
+          "paragraph": null,
+          "bbox": null
+        },
+        "source_snippet": " | 24 | VDC |  |  |  | ",
+        "chunk_id": "doc_ca68cdd4_c131",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "size_dia_3": {
+        "field_name": "size_dia_3",
+        "raw_value": "3 dia.",
+        "normalized_value": "3 dia.",
+        "confidence": {
+          "self_consistency": 0.98,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.98,
+          "explainability": "4-Factor Score (0.98) = Self-Consistency (0.98) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "doc_ca68cdd4",
+          "source_type": "pdf",
+          "page": 6,
+          "paragraph": null,
+          "bbox": null
+        },
+        "source_snippet": "Size |  |  | 3 dia. |  |  |  |  |  | 4 dia. |  |  |  |  |  | 6.5 dia. |  |  |  |  |  | M4 |  |  |  |  |  | M5 |  |  |  |  | ",
+        "chunk_id": "doc_ca68cdd4_c72",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "size_dia_4": {
+        "field_name": "size_dia_4",
+        "raw_value": "4 dia.",
+        "normalized_value": "4 dia.",
+        "confidence": {
+          "self_consistency": 0.98,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.98,
+          "explainability": "4-Factor Score (0.98) = Self-Consistency (0.98) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "doc_ca68cdd4",
+          "source_type": "pdf",
+          "page": 6,
+          "paragraph": null,
+          "bbox": null
+        },
+        "source_snippet": "Size |  |  | 3 dia. |  |  |  |  |  | 4 dia. |  |  |  |  |  | 6.5 dia. |  |  |  |  |  | M4 |  |  |  |  |  | M5 |  |  |  |  | ",
+        "chunk_id": "doc_ca68cdd4_c72",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "size_dia_6_5": {
+        "field_name": "size_dia_6_5",
+        "raw_value": "6.5 dia.",
+        "normalized_value": "6.5 dia.",
+        "confidence": {
+          "self_consistency": 0.98,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.98,
+          "explainability": "4-Factor Score (0.98) = Self-Consistency (0.98) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "doc_ca68cdd4",
+          "source_type": "pdf",
+          "page": 6,
+          "paragraph": null,
+          "bbox": null
+        },
+        "source_snippet": "Size |  |  | 3 dia. |  |  |  |  |  | 4 dia. |  |  |  |  |  | 6.5 dia. |  |  |  |  |  | M4 |  |  |  |  |  | M5 |  |  |  |  | ",
+        "chunk_id": "doc_ca68cdd4_c72",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "size_m4": {
+        "field_name": "size_m4",
+        "raw_value": "M4",
+        "normalized_value": "M4",
+        "confidence": {
+          "self_consistency": 0.98,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.98,
+          "explainability": "4-Factor Score (0.98) = Self-Consistency (0.98) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Size within acceptable physical envelope."
+        },
+        "source_ref": {
+          "doc_id": "doc_ca68cdd4",
+          "source_type": "pdf",
+          "page": 6,
+          "paragraph": null,
+          "bbox": null
+        },
+        "source_snippet": "Size |  |  | 3 dia. |  |  |  |  |  | 4 dia. |  |  |  |  |  | 6.5 dia. |  |  |  |  |  | M4 |  |  |  |  |  | M5 |  |  |  |  | ",
+        "chunk_id": "doc_ca68cdd4_c72",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "point_type": {
+        "field_name": "point_type",
+        "raw_value": "ON point",
+        "normalized_value": "ON point",
+        "confidence": {
+          "self_consistency": 0.98,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.98,
+          "explainability": "4-Factor Score (0.98) = Self-Consistency (0.98) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "doc_ca68cdd4",
+          "source_type": "pdf",
+          "page": 8,
+          "paragraph": null,
+          "bbox": null
+        },
+        "source_snippet": " |  | 6 \u00d7 1 |  | mm | ON point",
+        "chunk_id": "doc_ca68cdd4_c125",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "torque": {
+        "field_name": "torque",
+        "raw_value": "0.8 N\u00b7m",
+        "normalized_value": "0.8 N\u00b7m",
+        "confidence": {
+          "self_consistency": 0.98,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.98,
+          "explainability": "4-Factor Score (0.98) = Self-Consistency (0.98) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "doc_ca68cdd4",
+          "source_type": "pdf",
+          "page": 11,
+          "paragraph": null,
+          "bbox": null
+        },
+        "source_snippet": "Tr | 0.8 N\u00b7m |  |  | ",
+        "chunk_id": "doc_ca68cdd4_c140",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "max_torque": {
+        "field_name": "max_torque",
+        "raw_value": "0.2 N\u00b7m",
+        "normalized_value": "0.2 N\u00b7m",
+        "confidence": {
+          "self_consistency": 0.98,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.98,
+          "explainability": "4-Factor Score (0.98) = Self-Consistency (0.98) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "doc_ca68cdd4",
+          "source_type": "pdf",
+          "page": 11,
+          "paragraph": null,
+          "bbox": null
+        },
+        "source_snippet": "Torque | 0.2 N\u00b7m max. |  |  |  |  | ",
+        "chunk_id": "doc_ca68cdd4_c144",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      },
+      "diameter": {
+        "field_name": "diameter",
+        "raw_value": "2",
+        "normalized_value": "2",
+        "confidence": {
+          "self_consistency": 0.98,
+          "verification_agreement": 1.0,
+          "sanity_compliance": 1.0,
+          "source_quality": 1.0,
+          "overall_score": 0.98,
+          "explainability": "4-Factor Score (0.98) = Self-Consistency (0.98) \u00d7 Verification (1.0) \u00d7 Sanity (1.0) \u00d7 Source Quality (1.0 - clean). Field passed domain sanity check."
+        },
+        "source_ref": {
+          "doc_id": "doc_ca68cdd4",
+          "source_type": "pdf",
+          "page": 15,
+          "paragraph": null,
+          "bbox": null
+        },
+        "source_snippet": "dia. | 2",
+        "chunk_id": "doc_ca68cdd4_c157",
+        "source_quality": "clean",
+        "status": "auto_published",
+        "human_override": null
+      }
+    },
+    "source_documents": [
+      "E:\\Clarion\\data\\uploads\\doc_ca68cdd4_Test1.pdf"
+    ],
+    "trust_score": 1.0,
+    "publication_status": "needs_review",
+    "outlier_flags": [],
+    "created_at": "2026-08-23T10:32:50",
+    "updated_at": "2026-08-23T10:32:50"
+  }
+]

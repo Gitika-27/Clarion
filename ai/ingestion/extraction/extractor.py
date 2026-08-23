@@ -1,215 +1,99 @@
-"""
-Clarion - Member 2 Extraction Agent
 
-This module takes SourceChunk objects produced by the ingestion stage
-and extracts important product fields from their text.
-
-Member 2 responsibilities:
-- Read SourceChunk data
-- Extract structured product fields
-- Preserve the source reference
-- Return extraction results for later stages
-"""
-
+import os
+import json
 from dataclasses import asdict, is_dataclass
 from typing import Any
 
 from ai.ingestion.schemas import SourceChunk
 
+try:
+    from groq import Groq
+    _client = Groq(api_key=os.environ["GROQ_API_KEY"])
+    _GROQ_AVAILABLE = True
+except Exception:
+    _GROQ_AVAILABLE = False
+
+MODEL = "openai/gpt-oss-20b"
+
+SYSTEM_PROMPT = """You extract structured product fields from a fragment of an \
+industrial product datasheet. Given the text, identify any real product \
+attributes present (e.g. rated_voltage, model_number, housing_material, size, \
+classification_code, or any other clearly stated spec). Rules:
+- Only extract what's actually stated in the text -- never invent values.
+- If nothing meaningful is present, return an empty list.
+- Respond with ONLY a JSON object, no other text, no code fences.
+Format: {"fields": [{"field": "snake_case_name", "value": "extracted value"}]}
+"""
+
 
 def source_ref_to_dict(source_ref: Any) -> dict:
-    """
-    Convert source_ref into a normal dictionary.
-
-    Handles both:
-    - SourceRef dataclass
-    - dictionary
-    """
-
     if isinstance(source_ref, dict):
         return source_ref
-
     if is_dataclass(source_ref):
         return asdict(source_ref)
+    return {"value": str(source_ref)}
 
-    return {
-        "value": str(source_ref)
+
+def _keyword_fallback(text: str) -> list[dict]:
+    """Safety net only -- used if the live API call fails."""
+    text_lower = text.lower()
+    found = []
+    checks = {
+        "rated_voltage": "rated voltage",
+        "model_number": "model number",
+        "housing_material": "housing material",
+        "size": "size",
+        "classification_code": "classification code",
     }
+    for field_name, keyword in checks.items():
+        if keyword in text_lower:
+            found.append({"field": field_name, "value": text})
+    return found
+
+
+def _extract_from_chunk_dynamic(text: str) -> list[dict]:
+    response = _client.chat.completions.create(
+        model=MODEL,
+        max_tokens=512,
+        messages=[
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": text},
+        ],
+        response_format={"type": "json_object"},
+    )
+    raw = response.choices[0].message.content.strip()
+    raw = raw.replace("```json", "").replace("```", "").strip()
+    parsed = json.loads(raw)
+    return parsed.get("fields", [])
 
 
 def extract_fields(chunks: list[SourceChunk]) -> list[dict]:
     """
-    Extract important product fields from document chunks.
-
-    Each extracted field keeps:
-    - field name
-    - extracted value
-    - chunk ID
-    - source reference
+    Extracts product fields from document chunks using a live LLM call per
+    chunk. Skips chunks with negligible text. Falls back to keyword matching
+    only if the API call itself errors out.
     """
-
     extracted = []
 
     for chunk in chunks:
+        text = (chunk.text or "").strip()
+        if len(text) < 8:
+            continue  # nothing meaningful to extract from a near-empty chunk
 
-        # Make sure the chunk text is available
-        text = chunk.text if chunk.text else ""
+        if _GROQ_AVAILABLE:
+            try:
+                found_fields = _extract_from_chunk_dynamic(text)
+            except Exception:
+                found_fields = _keyword_fallback(text)
+        else:
+            found_fields = _keyword_fallback(text)
 
-        # Convert text to lowercase for easier searching
-        text_lower = text.lower()
-
-        # ---------------------------------------------------------
-        # Rated Voltage
-        # ---------------------------------------------------------
-        if "rated voltage" in text_lower:
-
+        for f in found_fields:
             extracted.append({
-                "field": "rated_voltage",
-                "value": text,
+                "field": f.get("field", "unknown_field"),
+                "value": f.get("value", text),
                 "chunk_id": chunk.chunk_id,
-                "source_ref": source_ref_to_dict(chunk.source_ref)
-            })
-
-        # ---------------------------------------------------------
-        # Model Number
-        # ---------------------------------------------------------
-        if "model number" in text_lower:
-
-            extracted.append({
-                "field": "model_number",
-                "value": text,
-                "chunk_id": chunk.chunk_id,
-                "source_ref": source_ref_to_dict(chunk.source_ref)
-            })
-
-        # ---------------------------------------------------------
-        # Housing Material
-        # ---------------------------------------------------------
-        if "housing material" in text_lower:
-
-            extracted.append({
-                "field": "housing_material",
-                "value": text,
-                "chunk_id": chunk.chunk_id,
-                "source_ref": source_ref_to_dict(chunk.source_ref)
-            })
-
-        # ---------------------------------------------------------
-        # Size
-        # ---------------------------------------------------------
-        if "size" in text_lower:
-
-            extracted.append({
-                "field": "size",
-                "value": text,
-                "chunk_id": chunk.chunk_id,
-                "source_ref": source_ref_to_dict(chunk.source_ref)
-            })
-
-        # ---------------------------------------------------------
-        # Classification Code
-        # ---------------------------------------------------------
-        if "classification code" in text_lower:
-
-            extracted.append({
-                "field": "classification_code",
-                "value": text,
-                "chunk_id": chunk.chunk_id,
-                "source_ref": source_ref_to_dict(chunk.source_ref)
+                "source_ref": source_ref_to_dict(chunk.source_ref),
             })
 
     return extracted
-
-
-# ================================================================
-# Test the Extraction Agent
-# ================================================================
-
-if __name__ == "__main__":
-
-    print("Member 2 Extraction Agent started successfully.")
-
-    # ------------------------------------------------------------
-    # Create sample SourceChunk objects for testing
-    # ------------------------------------------------------------
-
-    from ai.ingestion.schemas import SourceRef
-
-    test_chunks = [
-
-        SourceChunk(
-            chunk_id="chunk_001",
-            text="Model Number: E2E",
-            source_ref=SourceRef(
-                doc_id="Test1",
-                source_type="pdf",
-                page=2
-            ),
-            source_quality="clean",
-            chunk_type="text"
-        ),
-
-        SourceChunk(
-            chunk_id="chunk_002",
-            text="Rated Voltage: 230V",
-            source_ref=SourceRef(
-                doc_id="Test1",
-                source_type="pdf",
-                page=2
-            ),
-            source_quality="clean",
-            chunk_type="text"
-        ),
-
-        SourceChunk(
-            chunk_id="chunk_003",
-            text="Housing material and shape: S",
-            source_ref=SourceRef(
-                doc_id="Test1",
-                source_type="pdf",
-                page=2
-            ),
-            source_quality="clean",
-            chunk_type="table_row"
-        ),
-
-        SourceChunk(
-            chunk_id="chunk_004",
-            text="Size: 03",
-            source_ref=SourceRef(
-                doc_id="Test1",
-                source_type="pdf",
-                page=2
-            ),
-            source_quality="clean",
-            chunk_type="table_row"
-        ),
-
-        SourceChunk(
-            chunk_id="chunk_005",
-            text="Classification Code: S",
-            source_ref=SourceRef(
-                doc_id="Test1",
-                source_type="pdf",
-                page=2
-            ),
-            source_quality="clean",
-            chunk_type="table_row"
-        )
-    ]
-
-    # ------------------------------------------------------------
-    # Run extraction
-    # ------------------------------------------------------------
-
-    results = extract_fields(test_chunks)
-
-    # ------------------------------------------------------------
-    # Display results
-    # ------------------------------------------------------------
-
-    print("\nExtracted Fields:")
-    print("-----------------")
-
-    for result in results:
-        print(result)

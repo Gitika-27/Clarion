@@ -3,7 +3,7 @@ import sys
 import os
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "ingestion"))
-from csv_ingestion import ingest_csv
+from csv_ingestion import ingest_csv  # type: ignore
 from enrich_row import enrich_record
 
 
